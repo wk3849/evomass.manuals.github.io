@@ -170,7 +170,7 @@ When installing EvoMass for the first time, there are 200 credits along with the
 
 第一次安装EvoMass后，将有200次操作次数。随后则需要申请激活码获得更多的操作次数。目前每次激活码申请将获得10000次的操作次数。请使用以下链接申请激活码: [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf4fYlOATW2Tp3zp6Y9nZynsCx-ZF_2wWzX7xCrRFTzW4x2Jw/viewform) 和 [腾讯表格](https://docs.qq.com/form/edit/DVGp4VHVGeFpRelN3#/fill), 激活码会尽快发至申请中的邮箱。下图为输入激活码的流程。
 
-![image](https://github.com/wk3849/evomass.manuals.github.io/blob/6f120332fd05b33417e6d4e36e33800c9fbd7425/images/image005.png)
+![image](https://github.com/wk3849/evomass.manuals.github.io/blob/1c779b343bb225cdea140e4a829507712ee8b47e/images/image005.jpg)
 
 ## 1.4 Learn how to use EvoMass 学习使用EvoMass
 
