@@ -10,7 +10,7 @@ This user guide is based on EvoMass **0.3.3** and published on **Novermber 21, 2
 
 [1. General Overview 总括 3](#general-overview-总括)
 
-[1.1. Installation 安装 3](#1.1-installation-安装)
+[1.1. Installation 安装 3](#11-installation-安装)
 
 [1.2. Start your first run of using EvoMass 开始使用 4](#start-your-first-run-of-using-evomass-开始使用)
 
