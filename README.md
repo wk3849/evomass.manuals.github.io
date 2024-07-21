@@ -146,7 +146,7 @@ To install EvoMass, simply drag the gha file to the Grasshopper canvas, or repla
 
 安装EvoMass，仅需将相应的gha文件拖入Grasshopper界面，或替换在组件文件夹中原有的gha文件即可。如果在完成上述操作后，在工具栏中未出现EvoMass相关标签，请检查gha文件是否已经检索（右击gha文件-属性第一栏最下部）。
 
-![image](images/Picture1.png)
+![image](https://github.com/wk3849/evomass.manuals.github.io/blob/6f120332fd05b33417e6d4e36e33800c9fbd7425/images/image001.png)
 
 If a **loading error** shows up during you start Rhino, you will need to type in “GrasshopperDeveloperSettings” in the Rhino command line and disable the first option as shown below.
 
@@ -154,7 +154,7 @@ If a **loading error** shows up during you start Rhino, you will need to type in
 
 |                       |                       |
 |-----------------------|-----------------------|
-| ![](media/image2.png) | ![](media/image3.png) |
+| ![image](https://github.com/wk3849/evomass.manuals.github.io/blob/6f120332fd05b33417e6d4e36e33800c9fbd7425/images/image002.png) | ![image](https://github.com/wk3849/evomass.manuals.github.io/blob/6f120332fd05b33417e6d4e36e33800c9fbd7425/images/image003.png) |
 
 ## 1.2 Start your first run of using EvoMass 开始使用
 
