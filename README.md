@@ -32,99 +32,99 @@ This user guide is based on EvoMass **0.3.3** and published on **Novermber 21, 2
 
 [2.1.4. Generate Cores 生成核心筒 10](#214-generate-cores-生成核心筒)
 
-[2.1.5. Target Gross Area 目标建筑面积 10](#target-gross-area-目标建筑面积)
+[2.1.5. Target Gross Area 目标建筑面积 10](#215-target-gross-area-目标建筑面积)
 
-[2.1.6. Façade Types 立面类型 11](#façade-types-立面类型)
+[2.1.6. Façade Types 立面类型 11](#216-façade-types-立面类型)
 
-[2.2. Advanced setting 高级设定 11](#advanced-setting-高级设定)
+[2.2. Advanced setting 高级设定 11](#22-advanced-setting-高级设定)
 
-[2.2.1. Interfering point 干扰点 12](#interfering-point-干扰点)
+[2.2.1. Interfering point 干扰点 12](#221-interfering-point-干扰点)
 
-[2.2.2. Separation Control 分离控制 13](#separation-control-分离控制)
+[2.2.2. Separation Control 分离控制 13](#222-separation-control-分离控制)
 
-[2.2.3. Custom Boundary 自定义边界 13](#custom-boundary-自定义边界)
+[2.2.3. Custom Boundary 自定义边界 13](#223-custom-boundary-自定义边界)
 
-[2.2.4. External Volume 外部体量 13](#external-volume-外部体量)
+[2.2.4. External Volume 外部体量 13](#224-external-volume-外部体量)
 
-[2.2.5. Remove Small Mass 去除细碎体量 14](#remove-small-mass-去除细碎体量)
+[2.2.5. Remove Small Mass 去除细碎体量 14](#225-remove-small-mass-去除细碎体量)
 
-[2.2.6. Fixed Void 固定负空间 14](#fixed-void-固定负空间)
+[2.2.6. Fixed Void 固定负空间 14](#226-fixed-void-固定负空间)
 
-[2.2.7. Subtractor Appearing Position 削减体位置控制 14](#subtractor-appearing-position-削减体位置控制)
+[2.2.7. Subtractor Appearing Position 削减体位置控制 14](#227-subtractor-appearing-position-削减体位置控制)
 
-[2.3. Transformation Setting 变换设定 15](#transformation-setting-变换设定)
+[2.3. Transformation Setting 变换设定 15](#23-transformation-setting-变换设定)
 
-[2.3.1. Orientation 朝向 15](#orientation-朝向)
+[2.3.1. Orientation 朝向 15](#231-orientation-朝向)
 
-[2.3.2. Shear 切变 16](#shear-切变)
+[2.3.2. Shear 切变 16](#232-shear-切变)
 
-[2.4. Generation setting 生成设定 17](#generation-setting-生成设定)
+[2.4. Generation setting 生成设定 17](#24-generation-setting-生成设定)
 
-[2.4.1. Scaling 缩放 17](#scaling-缩放)
+[2.4.1. Scaling 缩放 17](#241-scaling-缩放)
 
-[2.4.2. Display Boundary 显示边界 18](#display-boundary-显示边界)
+[2.4.2. Display Boundary 显示边界 18](#242-display-boundary-显示边界)
 
-[2.4.3. Shuffle Range 随机变化范围 18](#shuffle-range-随机变化范围)
+[2.4.3. Shuffle Range 随机变化范围 18](#243-shuffle-range-随机变化范围)
 
-[2.4.4. Save/Load 保存/载入 19](#saveload-保存载入)
+[2.4.4. Save/Load 保存/载入 19](#244-saveload-保存载入)
 
-[3. Design Generation Part 2 (Additive component) 设计生成2 （加法组件） 21](#design-generation-part-2-additive-component-设计生成2-加法组件)
+[3. Design Generation Part 2 (Additive component) 设计生成2 （加法组件） 21](#3-design-generation-part-2-additive-component-设计生成2-加法组件)
 
-[3.1. Basic setting 基本设定 21](#basic-setting-基本设定-1)
+[3.1. Basic setting 基本设定 21](#31-basic-setting-基本设定-1)
 
-[3.1.1. Spatial Boundary 空间边界 21](#spatial-boundary-空间边界)
+[3.1.1. Spatial Boundary 空间边界 21](#311-spatial-boundary-空间边界)
 
-[3.1.2. Additive Unit Mass 叠加子体量 23](#additive-unit-mass-叠加子体量)
+[3.1.2. Additive Unit Mass 叠加子体量 23](#312-additive-unit-mass-叠加子体量)
 
-[3.1.3. Generate Cores 生成核心筒 24](#generate-cores-生成核心筒-1)
+[3.1.3. Generate Cores 生成核心筒 24](#313-generate-cores-生成核心筒-1)
 
-[3.1.4. Target Gross Area 目标建筑面积 24](#target-gross-area-目标建筑面积-1)
+[3.1.4. Target Gross Area 目标建筑面积 24](#314-target-gross-area-目标建筑面积-1)
 
-[3.1.5. Façade Types 立面类型 24](#façade-types-立面类型-1)
+[3.1.5. Façade Types 立面类型 24](#315-façade-types-立面类型-1)
 
-[3.2. Advance setting 高级设定 24](#advance-setting-高级设定)
+[3.2. Advance setting 高级设定 24](#32-advance-setting-高级设定)
 
-[3.2.1. Interfering point 干扰点 25](#interfering-point-干扰点-1)
+[3.2.1. Interfering point 干扰点 25](#321-interfering-point-干扰点-1)
 
-[3.2.2. Separation Control 分离控制 26](#separation-control-分离控制-1)
+[3.2.2. Separation Control 分离控制 26](#322-separation-control-分离控制-1)
 
-[3.2.3. Custom Boundary 自定义边界 26](#custom-boundary-自定义边界-1)
+[3.2.3. Custom Boundary 自定义边界 26](#323-custom-boundary-自定义边界-1)
 
-[3.2.4. External Volume 外部体量 26](#external-volume-外部体量-1)
+[3.2.4. External Volume 外部体量 26](#324-external-volume-外部体量-1)
 
-[3.2.5. Vertical Constraint Check 垂直约束检查 27](#vertical-constraint-check-垂直约束检查)
+[3.2.5. Vertical Constraint Check 垂直约束检查 27](#325-vertical-constraint-check-垂直约束检查)
 
-[3.2.6. Fixed Void 固定负空间 27](#fixed-void-固定负空间-1)
+[3.2.6. Fixed Void 固定负空间 27](#326-fixed-void-固定负空间-1)
 
-[3.2.7. Unit Masses Appearing Position 子体量位置约束 27](#unit-masses-appearing-position-子体量位置约束)
+[3.2.7. Unit Masses Appearing Position 子体量位置约束 27](#327-unit-masses-appearing-position-子体量位置约束)
 
-[3.3. Transformation 变换设定 27](#transformation-变换设定)
+[3.3. Transformation 变换设定 27](#33-transformation-变换设定)
 
-[3.4. Generation setting 生成设定 27](#generation-setting-生成设定-1)
+[3.4. Generation setting 生成设定 27](#34-generation-setting-生成设定-1)
 
-[4. Design Optimization 设计优化 28](#design-optimization-设计优化)
+[4. Design Optimization 设计优化 28](#4-design-optimization-设计优化)
 
-[4.1. Input/Output 输入/输出 28](#inputoutput-输入输出)
+[4.1. Input/Output 输入/输出 28](#41-inputoutput-输入输出)
 
-[4.1.1. Connection 连接 28](#connection-连接)
+[4.1.1. Connection 连接 28](#411-connection-连接)
 
-[4.1.2. Outputs 输出 29](#outputs-输出)
+[4.1.2. Outputs 输出 29](#412-outputs-输出)
 
-[4.1.3. Inputs 输入 30](#inputs-输入)
+[4.1.3. Inputs 输入 30](#413-inputs-输入)
 
-[4.2. SSIEA setting SSIEA算法设置 30](#ssiea-setting-ssiea算法设置)
+[4.2. SSIEA setting SSIEA算法设置 30](#42-ssiea-setting-ssiea算法设置)
 
-[4.3. Optimization Viewer 优化窗口 33](#optimization-viewer-优化窗口)
+[4.3. Optimization Viewer 优化窗口 33](#43-optimization-viewer-优化窗口)
 
-[4.3.1. Main Viewer 主窗口 33](#main-viewer-主窗口)
+[4.3.1. Main Viewer 主窗口 33](#431-main-viewer-主窗口)
 
-[4.3.2. Improvement Viewer 改进解窗口 34](#improvement-viewer-改进解窗口)
+[4.3.2. Improvement Viewer 改进解窗口 34](#432-improvement-viewer-改进解窗口)
 
-[4.3.3. Information Viewer 信息窗口 35](#information-viewer-信息窗口)
+[4.3.3. Information Viewer 信息窗口 35](#433-information-viewer-信息窗口)
 
-[4.4. Data Backup 数据备份 36](#data-backup-数据备份)
+[4.4. Data Backup 数据备份 36](#44-data-backup-数据备份)
 
-[4.5. Restart/Load Optimization 重新开始/载入优化 38](#restartload-optimization-重新开始载入优化)
+[4.5. Restart/Load Optimization 重新开始/载入优化 38](#45restartload-optimization-重新开始载入优化)
 
 # 1. General Overview 总括
 
@@ -298,7 +298,7 @@ This function allows you to define the closeness of the voids. If it is activate
 | ![](media/image79.png) | ![](media/image80.png) |
 | ![](media/image81.png) | ![](media/image82.png) |
 
-### Custom Boundary 自定义边界
+### 2.2.3 Custom Boundary 自定义边界
 
 This function allows you to define a more complex building footprint by delineating a closed **polyline** in **Rhino** rather than a curve in Grasshopper. The component will try to maintain the boundary constraint when you use this function.
 
@@ -308,7 +308,7 @@ This function allows you to define a more complex building footprint by delineat
 |------------------------|------------------------|------------------------|
 | ![](media/image41.png) | ![](media/image42.png) | ![](media/image43.png) |
 
-### External Volume 外部体量
+### 2.2.4 External Volume 外部体量
 
 This function allows you to define an external fixed volume and combine it with the generated design. The aim of this function is to enable a part of the building to be varied. For example, the tower (fixed) and the podium (variable).
 
@@ -318,7 +318,7 @@ This function allows you to define an external fixed volume and combine it with 
 |------------------------|------------------------|------------------------|
 | ![](media/image86.png) | ![](media/image87.png) | ![](media/image88.png) |
 
-### Remove Small Mass 去除细碎体量
+### 2.2.5 Remove Small Mass 去除细碎体量
 
 This function allows you to remove masses that are too small. This function is useful when there is a no-boundary-constraint or a keep-vertical-voids-on-boundary.
 
@@ -328,7 +328,7 @@ This function allows you to remove masses that are too small. This function is u
 |------------------------|------------------------|
 | ![](media/image91.png) | ![](media/image92.png) |
 
-### Fixed Void 固定负空间
+### 2.2.6 Fixed Void 固定负空间
 
 This function allows you to define an invariable void in the initial volume, which can be considered as a courtyard or an L-shaped footprint.
 
@@ -338,7 +338,7 @@ This function allows you to define an invariable void in the initial volume, whi
 |------------------------|------------------------|------------------------|
 | ![](media/image96.png) | ![](media/image97.png) | ![](media/image98.png) |
 
-### Subtractor Appearing Position 削减体位置控制
+### 2.2.7 Subtractor Appearing Position 削减体位置控制
 
 This function allows you to define the vertical position that all horizontal voids can be generated. The aim of this function is to create a more specific type of building such as a building with stilts and cascading roofs.
 
@@ -348,7 +348,7 @@ This function allows you to define the vertical position that all horizontal voi
 |-------------------------|-------------------------|-------------------------|
 | ![](media/image102.png) | ![](media/image103.png) | ![](media/image104.png) |
 
-## Transformation Setting 变换设定
+## 2.3 Transformation Setting 变换设定
 
 The tab of transformation contains functions that can achieve more complex morphological changes in the generated design.
 
@@ -356,7 +356,7 @@ The tab of transformation contains functions that can achieve more complex morph
 
 ![](media/image105.png)
 
-### Orientation 朝向
+### 2.3.1 Orientation 朝向
 
 This function allows you to change the orientation of the building by rotating the building based on its center point. The “Start” and “End” do not directly mean the starting and ending angle, and the rotation range is also affected by the “Step Size”. In this component, the range of rotation is from the starting value \* step size to the ending value \* step size. Therefore, if the starting value is -20 and the ending value is 15, and the step size is 2, these lead to the rotation range from -40 degrees to 30 degrees. In addition, it is not allowed the rotation range smaller than -90 degrees and larger than 90 degrees.
 
@@ -374,7 +374,7 @@ This function is more useful when combined with the custom boundary. When you de
 |-------------------------|-------------------------|-------------------------|
 | ![](media/image109.png) | ![](media/image109.png) | ![](media/image109.png) |
 
-### Shear 切变
+### 2.3.2 Shear 切变
 
 This function allows you to easily make shear transformation of the generated building design. Note that the value set here will not be changed during the optimization process.
 
@@ -384,7 +384,7 @@ This function allows you to easily make shear transformation of the generated bu
 |-------------------------|-------------------------|-------------------------|
 | ![](media/image116.png) | ![](media/image117.png) | ![](media/image118.png) |
 
-## Generation setting 生成设定
+## 2.4 Generation setting 生成设定
 
 Generation setting allows you to control the generation of the design, such as scaling up the generated building, displaying the boundary, and controlling the range of design variation when shuffling the design.
 
@@ -392,7 +392,7 @@ Generation setting allows you to control the generation of the design, such as s
 
 ![](media/image7.png)
 
-### Scaling 缩放
+### 2.4.1 Scaling 缩放
 
 Due to different simulation tools that may use different unit systems, this function allows you to scale up the building geometry.
 
@@ -402,7 +402,7 @@ Due to different simulation tools that may use different unit systems, this func
 |-------------------------|-------------------------|-------------------------|
 | ![](media/image122.png) | ![](media/image123.png) | ![](media/image124.png) |
 
-### Display Boundary 显示边界
+### 2.4.2 Display Boundary 显示边界
 
 This function allows you to display the maximum volume of the generated design. The aim of this function is to help you detect whether the generated design collides with surrounding buildings. This function also works when the custom boundary is defined
 
@@ -412,7 +412,7 @@ This function allows you to display the maximum volume of the generated design. 
 |-------------------------|-------------------------|-------------------------|
 | ![](media/image128.png) | ![](media/image129.png) | ![](media/image128.png) |
 
-### Shuffle Range 随机变化范围
+### 2.4.3 Shuffle Range 随机变化范围
 
 This function allows you to control the variability when shuffling the design. This function is aimed to support more detailed and subtle design exploration based on an optimized design, and see whether there is a feasible design similar to the optimized design you select. When the shuffle range is below 100%, the current parameters for the generated design will be restored, and all the variations of the parameters will be conducted based on these restored parameters. If you want to use the parameters of the shuffled design as the basis point for design variation, you can click the “Update Massing” button, and the current parameters will be restored.
 
@@ -424,7 +424,7 @@ This function allows you to control the variability when shuffling the design. T
 | ![](media/image134.png) | ![](media/image135.png) | ![](media/image136.png) |
 | ![](media/image137.png) | ![](media/image137.png) | ![](media/image137.png) |
 
-### Save/Load 保存/载入
+### 2.4.4 Save/Load 保存/载入
 
 This function allows you to save the setting you define as an external file and load it from another \*.gh file or computer. This function makes it easier to restore your setting and re-uses it by others or in other projects.
 
@@ -432,13 +432,13 @@ This function allows you to save the setting you define as an external file and 
 
 ![](media/image7.png)
 
-# Design Generation Part 2 (Additive component) 设计生成2 （加法组件）
+# 3 Design Generation Part 2 (Additive component) 设计生成2 （加法组件）
 
 The additive component implements the additive form generation principle. This component generates building massing by aggregating multiple unit masses in a pre-defined spatial boundary. By defining the size and position of the unit mass, you can tailor the general formal feature of the generated building massing volume and make it satisfy your design intent. This section presents the major functions of this component.
 
 加法组件以“加法”原则为核心，通过在一个预定义的空间边界中叠加若干子体量实现体量的生成。该组件可以通过对子体量的尺寸和位置进行控制，对生成体量的总体特征进行约束和干预，并以此满足不同的设计条件和意图。
 
-## Basic setting 基本设定
+## 3.1 Basic setting 基本设定
 
 The basic setting panel of the subtractive component is shown below. In this panel, you can define the most important parameters that affect the formal features of the generated design, including the spatial boundary, number of unit masses, size constraint of unit masses, etc. Kindly remember to click the “**Set Parameter”** button once you have finished defining the parameters
 
@@ -446,7 +446,7 @@ The basic setting panel of the subtractive component is shown below. In this pan
 
 ![](media/image138.png)
 
-### Spatial Boundary 空间边界
+### 3.1.1 Spatial Boundary 空间边界
 
 The spatial boundary lets you define the **type** of the generated building massing, such as high-rise towers or middle-rise complex buildings. In this component, the initial volume is horizontally defined by the column-grid numbers and the span size of the column gird and vertically defined by the number of floors and the floor height. In addition, you can define different span sizes in the two directions and the range of the floor numbers for achieving higher design variability.
 
@@ -468,7 +468,7 @@ Due to the generative mechanism, the generated design based on the additive comp
 | ![](media/image149.png) | ![](media/image150.png) |
 | ![](media/image151.png) | ![](media/image152.png) |
 
-### Additive Unit Mass 叠加子体量
+### 3.1.2 Additive Unit Mass 叠加子体量
 
 The additive component creates the building volume by aggregating multiple unit masses. The **number** and **size** of the unit mass affect the **complexity** of the generated design. In addition, there are two approaches to controlling the overall volume of the generated design. The first one is using the “Filling Factor”, which can be understood as how much the initial volume will be filled, and each unit mass will be scaled up or down according to the “Filling Factor”. The second one is using “Actual Size Constraint”, which allows you to specify the actual size range of each unit mass. Moreover, you can set the same value for the min and max of the size range, which results in rectangle unit masses.
 
@@ -486,25 +486,25 @@ The additive component creates the building volume by aggregating multiple unit 
 
 I
 
-### Generate Cores 生成核心筒
+### 3.1.3 Generate Cores 生成核心筒
 
 Same as the “Generate Cores” function in the subtractive component. Please refer to 2.1.4.
 
 该部分内容请参考2.1.4
 
-### Target Gross Area 目标建筑面积
+### 3.1.4 Target Gross Area 目标建筑面积
 
 Same as the “Generate Cores” function in the subtractive component. Please refer to 2.1.5.
 
 该部分内容请参考2.1.5
 
-### Façade Types 立面类型
+### 3.1.5 Façade Types 立面类型
 
 Same as the “Generate Cores” function in the subtractive component. Please refer to 2.1.6.
 
 该部分内容请参考2.1.6
 
-## Advance setting 高级设定
+## 3.2 Advance setting 高级设定
 
 In advance settings, these parameters allow you to create more complex building massing designs or further navigate the generation process to tailor the formal features. These parameters are not mandatory and can be set as default in most cases.
 
@@ -512,7 +512,7 @@ In advance settings, these parameters allow you to create more complex building 
 
 ![](media/image68.png)
 
-### Interfering point 干扰点
+### 3.2.1 Interfering point 干扰点
 
 This function allows you to define a point to attract or repel the unit mass to or from it. For example, you can use it to define an entrance area by repelling more unit masses to this area. When using this function, you need to first draw a point in **Rhino** instead of in Grasshopper and pick it after you click the “Set Point” button. In addition, positive values mean attraction, and negative values mean repulsion.
 
@@ -522,7 +522,7 @@ This function allows you to define a point to attract or repel the unit mass to 
 |-------------------------|-------------------------|-------------------------|
 | ![](media/image72.png)  | ![](media/image73.png)  | ![](media/image74.png)  |
 
-### Separation Control 分离控制
+### 3.2.2 Separation Control 分离控制
 
 This function allows you to define the closeness of the unit mass. If it is activated, the unit mass will be more separate from each other in the horizontal and/or vertical directions. Please be aware that this function will only affect when two or more voids are close to one another.
 
@@ -534,7 +534,7 @@ This function allows you to define the closeness of the unit mass. If it is acti
 | ![](media/image182.png) | ![](media/image183.png) |
 | ![](media/image81.png)  | ![](media/image82.png)  |
 
-### Custom Boundary 自定义边界
+### 3.2.3 Custom Boundary 自定义边界
 
 This function allows you to define more complex building footprint by delineating a **polyline** in **Rhino** rather than a curve in Grasshopper. When active, all the unit masses will be attempted to be kept inside the boundary.
 
@@ -544,13 +544,13 @@ This function allows you to define more complex building footprint by delineatin
 |-------------------------|-------------------------|-------------------------|
 | ![](media/image187.png) | ![](media/image188.png) | ![](media/image189.png) |
 
-### External Volume 外部体量
+### 3.2.4 External Volume 外部体量
 
 Same as the “External Volume” function in the subtractive component. Please refer to 2.2.4.
 
 该部分内容请参考2.2.4
 
-### Vertical Constraint Check 垂直约束检查
+### 3.2.5 Vertical Constraint Check 垂直约束检查
 
 When using the additive component, it is easier for generating chaotic designs such as floating volume than in the subtractive component. Therefore, in default, three constraints are implemented to avoid these chaotic designs. However, you can turn them off in case a certain degree of infeasibility can be allowed.
 
@@ -558,39 +558,39 @@ When using the additive component, it is easier for generating chaotic designs s
 
 [TABLE]
 
-### Fixed Void 固定负空间
+### 3.2.6 Fixed Void 固定负空间
 
 Same as the “Fixed Void” function in the subtractive component. Please refer to 2.2.6.
 
 该部分内容请参考2.2.6
 
-### Unit Masses Appearing Position 子体量位置约束
+### 3.2.7 Unit Masses Appearing Position 子体量位置约束
 
 Same as the “Subtractor Appearing Position” function in the subtractive component. Please refer to 2.2.7.
 
 该部分内容请参考2.2.7
 
-## Transformation 变换设定
+## 3.3 Transformation 变换设定
 
 Same as the “Transformation” tab in the subtractive component. Please refer to 2.3.
 
 该部分内容请参考2.3
 
-## Generation setting 生成设定
+## 3.4 Generation setting 生成设定
 
 Same as the “Generation setting” in the subtractive component. Please refer to 2.3.
 
 该部分内容请参考2.3
 
-# Design Optimization 设计优化
+# 5 Design Optimization 设计优化
 
 In order to drive the optimization process, EvoMass provides a hybrid evolutionary algorithm called Steady-State Island Evolutionary Algorithm (SSIEA). SSIEA is designed to support a more explorative optimization search by subdividing the design population into several subpopulations, each can focus on a distinct region in the whole design search space. In addition, the component containing SSIEA also implements functions to facilitate the use of EvoMass such as auto-backup and screen capture, etc.
 
 为了驱动设计的自动优化，EvoMass提供一个混合进化算法。该算法借助“多岛模型“和”稳态替换策略“将设计种群分为多个子种群，并使每个子种群搜索设计空间中不同的子区域，以实现更具探索性的设计寻优。此外，在EvoMass中，优化算法组件还包括了如自动备份和截屏等多种功能。
 
-1.  ## Input/Output 输入/输出
+## 4.1 Input/Output 输入/输出
 
-    1.  ### Connection 连接
+### 4.1.1 Connection 连接
 
 The SSIEA component allows you to connect multiple generative components (subtractive/additive) as the outputs so that you can evolve multiple buildings at the same time for small-scale urban design tasks. However, it is not recommended to connect too many components as it will significantly increase the search difficulty for the optimization. In addition, this component also allows you to connect multiple value sources as the inputs, but you can only assign two of them as optimization objectives and the rest of these inputs will be automatically recorded during the optimization and will not affect the optimization. For the input, you can **rename** the nickname of the value parameter, which can be identified by the SSIEA component. **Lastly, for each input, it should only contain one value, no list or tree data is allowed.**
 
@@ -598,7 +598,7 @@ SSIEA组件允许在输出端同时连接多个生成组件（减法/加法组�
 
 ![](media/image199.png)
 
-### Outputs 输出
+### 4.1.2 Outputs 输出
 
 Once the input and output are properly defined, double click the SSIEA component, and the below viewer will be shown up. The default tab will be the output, and you can define the output here, such as changing the type of outputs and optimization direction. For the output type, it defines whether the selected output is an optimization objective or not. If the selected output is changed to fitness, you will also need to define the direction of the optimization search, i.e. maximizing or minimizing the fitness value. Lastly, you can see the nickname of the output in the first column. **Please note that only two inputs can be assigned as fitness.**
 
@@ -606,7 +606,7 @@ Once the input and output are properly defined, double click the SSIEA component
 
 ![](media/image200.png)
 
-### Inputs 输入
+### 4.1.3 Inputs 输入
 
 In this tab, you can change the viewer to show the information of the input. In the input viewer, you can see the parameter number of the component. If there are multiple generative components connected, you can also see the names of the connected components. **In most cases, you don’t need to check this tab as no parameter needs to change here.**
 
@@ -614,7 +614,7 @@ In this tab, you can change the viewer to show the information of the input. In 
 
 ![](media/image201.png)
 
-## SSIEA setting SSIEA算法设置
+## 4.2 SSIEA setting SSIEA算法设置
 
 The second tab of the component viewer is the setting for SSIEA. In this tab, you can define the parameter related to SSIEA to adjust the search behavior of the optimization search.
 
