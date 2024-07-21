@@ -8,29 +8,29 @@ This user guide is based on EvoMass **0.3.3** and published on **Novermber 21, 2
 
 [EvoMass User Guide 使用指引 1](#evomass-user-guide-使用指引)
 
-[1. General Overview 总括 3](#general-overview-总括)
+[1. General Overview 总括 3](#1-general-overview-总括)
 
 [1.1. Installation 安装 3](#11-installation-安装)
 
-[1.2. Start your first run of using EvoMass 开始使用 4](#start-your-first-run-of-using-evomass-开始使用)
+[1.2. Start your first run of using EvoMass 开始使用 4](#12-start-your-first-run-of-using-evomass-开始使用)
 
-[1.3. Activation 激活 5](#activation-激活)
+[1.3. Activation 激活 5](#13-activation-激活)
 
-[1.4. Learn how to use EvoMass 学习使用EvoMass 5](#learn-how-to-use-evomass-学习使用evomass)
+[1.4. Learn how to use EvoMass 学习使用EvoMass 5](#14-learn-how-to-use-evomass-学习使用evomass)
 
-[1.5. About this user guide 关于该指引 6](#about-this-user-guide-关于该指引)
+[1.5. About this user guide 关于该指引 6](#15-about-this-user-guide-关于该指引)
 
-[2. Design Generation Part 1 (Subtractive component) 设计生成1（减法组件） 7](#design-generation-part-1-subtractive-component-设计生成1减法组件)
+[2. Design Generation Part 1 (Subtractive component) 设计生成1（减法组件） 7](#2-design-generation-part-1-subtractive-component-设计生成1减法组件)
 
-[2.1. Basic setting 基本设定 7](#basic-setting-基本设定)
+[2.1. Basic setting 基本设定 7](#21-basic-setting-基本设定)
 
-[2.1.1. Initial Volume 初始体量 7](#initial-volume-初始体量)
+[2.1.1. Initial Volume 初始体量 7](#211-initial-volume-初始体量)
 
-[2.1.2. Subtractor (Voids) 削减体（负空间） 8](#subtractor-voids-削减体负空间)
+[2.1.2. Subtractor (Voids) 削减体（负空间） 8](#212-subtractor-voids-削减体负空间)
 
-[2.1.3. Boundary Constraint 边界约束 9](#boundary-constraint-边界约束)
+[2.1.3. Boundary Constraint 边界约束 9](#213-boundary-constraint-边界约束)
 
-[2.1.4. Generate Cores 生成核心筒 10](#generate-cores-生成核心筒)
+[2.1.4. Generate Cores 生成核心筒 10](#214-generate-cores-生成核心筒)
 
 [2.1.5. Target Gross Area 目标建筑面积 10](#target-gross-area-目标建筑面积)
 
