@@ -20,7 +20,7 @@ This user guide is based on EvoMass **0.3.3** and published on **Novermber 21, 2
 
 [1.5. About this user guide 关于该指引](#15-about-this-user-guide-关于该指引)
 
-[2. Design Generation Part 1 (Subtractive component) 设计生成1（减法组件）](#2-design-generation-part-1-subtractive-component-设计生成1减法组件)
+[2. Design Generation Part 1 (Subtractive component) 设计生成1 (减法组件)](#2-design-generation-part-1-subtractive-component-设计生成1减法组件)
 
 [2.1. Basic setting 基本设定](#21-basic-setting-基本设定)
 
@@ -30,101 +30,101 @@ This user guide is based on EvoMass **0.3.3** and published on **Novermber 21, 2
 
 [2.1.3. Boundary Constraint 边界约束](#213-boundary-constraint-边界约束)
 
-[2.1.4. Generate Cores 生成核心筒 10](#214-generate-cores-生成核心筒)
+[2.1.4. Generate Cores 生成核心筒](#214-generate-cores-生成核心筒)
 
-[2.1.5. Target Gross Area 目标建筑面积 10](#215-target-gross-area-目标建筑面积)
+[2.1.5. Target Gross Area 目标建筑面积](#215-target-gross-area-目标建筑面积)
 
-[2.1.6. Façade Types 立面类型 11](#216-façade-types-立面类型)
+[2.1.6. Façade Types 立面类型](#216-façade-types-立面类型)
 
-[2.2. Advanced setting 高级设定 11](#22-advanced-setting-高级设定)
+[2.2. Advanced setting 高级设定](#22-advanced-setting-高级设定)
 
-[2.2.1. Interfering point 干扰点 12](#221-interfering-point-干扰点)
+[2.2.1. Interfering point 干扰点](#221-interfering-point-干扰点)
 
-[2.2.2. Separation Control 分离控制 13](#222-separation-control-分离控制)
+[2.2.2. Separation Control 分离控制](#222-separation-control-分离控制)
 
-[2.2.3. Custom Boundary 自定义边界 13](#223-custom-boundary-自定义边界)
+[2.2.3. Custom Boundary 自定义边界](#223-custom-boundary-自定义边界)
 
-[2.2.4. External Volume 外部体量 13](#224-external-volume-外部体量)
+[2.2.4. External Volume 外部体量](#224-external-volume-外部体量)
 
-[2.2.5. Remove Small Mass 去除细碎体量 14](#225-remove-small-mass-去除细碎体量)
+[2.2.5. Remove Small Mass 去除细碎体量](#225-remove-small-mass-去除细碎体量)
 
-[2.2.6. Fixed Void 固定负空间 14](#226-fixed-void-固定负空间)
+[2.2.6. Fixed Void 固定负空间](#226-fixed-void-固定负空间)
 
-[2.2.7. Subtractor Appearing Position 削减体位置控制 14](#227-subtractor-appearing-position-削减体位置控制)
+[2.2.7. Subtractor Appearing Position 削减体位置控制](#227-subtractor-appearing-position-削减体位置控制)
 
-[2.3. Transformation Setting 变换设定 15](#23-transformation-setting-变换设定)
+[2.3. Transformation Setting 变换设定](#23-transformation-setting-变换设定)
 
-[2.3.1. Orientation 朝向 15](#231-orientation-朝向)
+[2.3.1. Orientation 朝向](#231-orientation-朝向)
 
-[2.3.2. Shear 切变 16](#232-shear-切变)
+[2.3.2. Shear 切变](#232-shear-切变)
 
-[2.4. Generation setting 生成设定 17](#24-generation-setting-生成设定)
+[2.4. Generation setting 生成设定](#24-generation-setting-生成设定)
 
-[2.4.1. Scaling 缩放 17](#241-scaling-缩放)
+[2.4.1. Scaling 缩放](#241-scaling-缩放)
 
-[2.4.2. Display Boundary 显示边界 18](#242-display-boundary-显示边界)
+[2.4.2. Display Boundary 显示边界](#242-display-boundary-显示边界)
 
-[2.4.3. Shuffle Range 随机变化范围 18](#243-shuffle-range-随机变化范围)
+[2.4.3. Shuffle Range 随机变化范围](#243-shuffle-range-随机变化范围)
 
-[2.4.4. Save/Load 保存/载入 19](#244-saveload-保存载入)
+[2.4.4. Save/Load 保存/载入](#244-saveload-保存载入)
 
-[3. Design Generation Part 2 (Additive component) 设计生成2 （加法组件） 21](#3-design-generation-part-2-additive-component-设计生成2-加法组件)
+[3. Design Generation Part 2 (Additive component) 设计生成2 (加法组件)](#3-design-generation-part-2-additive-component-设计生成2-加法组件)
 
-[3.1. Basic setting 基本设定 21](#31-basic-setting-基本设定-1)
+[3.1. Basic setting 基本设定](#31-basic-setting-基本设定-1)
 
-[3.1.1. Spatial Boundary 空间边界 21](#311-spatial-boundary-空间边界)
+[3.1.1. Spatial Boundary 空间边界](#311-spatial-boundary-空间边界)
 
-[3.1.2. Additive Unit Mass 叠加子体量 23](#312-additive-unit-mass-叠加子体量)
+[3.1.2. Additive Unit Mass 叠加子体量](#312-additive-unit-mass-叠加子体量)
 
-[3.1.3. Generate Cores 生成核心筒 24](#313-generate-cores-生成核心筒-1)
+[3.1.3. Generate Cores 生成核心筒](#313-generate-cores-生成核心筒-1)
 
-[3.1.4. Target Gross Area 目标建筑面积 24](#314-target-gross-area-目标建筑面积-1)
+[3.1.4. Target Gross Area 目标建筑面积](#314-target-gross-area-目标建筑面积-1)
 
-[3.1.5. Façade Types 立面类型 24](#315-façade-types-立面类型-1)
+[3.1.5. Façade Types 立面类型](#315-façade-types-立面类型-1)
 
-[3.2. Advance setting 高级设定 24](#32-advance-setting-高级设定)
+[3.2. Advance setting 高级设定](#32-advance-setting-高级设定)
 
-[3.2.1. Interfering point 干扰点 25](#321-interfering-point-干扰点-1)
+[3.2.1. Interfering point 干扰点](#321-interfering-point-干扰点-1)
 
-[3.2.2. Separation Control 分离控制 26](#322-separation-control-分离控制-1)
+[3.2.2. Separation Control 分离控制](#322-separation-control-分离控制-1)
 
-[3.2.3. Custom Boundary 自定义边界 26](#323-custom-boundary-自定义边界-1)
+[3.2.3. Custom Boundary 自定义边界](#323-custom-boundary-自定义边界-1)
 
-[3.2.4. External Volume 外部体量 26](#324-external-volume-外部体量-1)
+[3.2.4. External Volume 外部体量](#324-external-volume-外部体量-1)
 
-[3.2.5. Vertical Constraint Check 垂直约束检查 27](#325-vertical-constraint-check-垂直约束检查)
+[3.2.5. Vertical Constraint Check 垂直约束检查](#325-vertical-constraint-check-垂直约束检查)
 
-[3.2.6. Fixed Void 固定负空间 27](#326-fixed-void-固定负空间-1)
+[3.2.6. Fixed Void 固定负空间](#326-fixed-void-固定负空间-1)
 
-[3.2.7. Unit Masses Appearing Position 子体量位置约束 27](#327-unit-masses-appearing-position-子体量位置约束)
+[3.2.7. Unit Masses Appearing Position 子体量位置约束](#327-unit-masses-appearing-position-子体量位置约束)
 
-[3.3. Transformation 变换设定 27](#33-transformation-变换设定)
+[3.3. Transformation 变换设定](#33-transformation-变换设定)
 
-[3.4. Generation setting 生成设定 27](#34-generation-setting-生成设定-1)
+[3.4. Generation setting 生成设定](#34-generation-setting-生成设定-1)
 
-[4. Design Optimization 设计优化 28](#4-design-optimization-设计优化)
+[4. Design Optimization 设计优化](#4-design-optimization-设计优化)
 
-[4.1. Input/Output 输入/输出 28](#41-inputoutput-输入输出)
+[4.1. Input/Output 输入/输出](#41-inputoutput-输入输出)
 
-[4.1.1. Connection 连接 28](#411-connection-连接)
+[4.1.1. Connection 连接](#411-connection-连接)
 
-[4.1.2. Outputs 输出 29](#412-outputs-输出)
+[4.1.2. Outputs 输出](#412-outputs-输出)
 
-[4.1.3. Inputs 输入 30](#413-inputs-输入)
+[4.1.3. Inputs 输入](#413-inputs-输入)
 
-[4.2. SSIEA setting SSIEA算法设置 30](#42-ssiea-setting-ssiea算法设置)
+[4.2. SSIEA setting SSIEA算法设置](#42-ssiea-setting-ssiea算法设置)
 
-[4.3. Optimization Viewer 优化窗口 33](#43-optimization-viewer-优化窗口)
+[4.3. Optimization Viewer 优化窗口](#43-optimization-viewer-优化窗口)
 
-[4.3.1. Main Viewer 主窗口 33](#431-main-viewer-主窗口)
+[4.3.1. Main Viewer 主窗口](#431-main-viewer-主窗口)
 
-[4.3.2. Improvement Viewer 改进解窗口 34](#432-improvement-viewer-改进解窗口)
+[4.3.2. Improvement Viewer 改进解窗口](#432-improvement-viewer-改进解窗口)
 
-[4.3.3. Information Viewer 信息窗口 35](#433-information-viewer-信息窗口)
+[4.3.3. Information Viewer 信息窗口](#433-information-viewer-信息窗口)
 
-[4.4. Data Backup 数据备份 36](#44-data-backup-数据备份)
+[4.4. Data Backup 数据备份](#44-data-backup-数据备份)
 
-[4.5. Restart/Load Optimization 重新开始/载入优化 38](#45restartload-optimization-重新开始载入优化)
+[4.5. Restart/Load Optimization 重新开始/载入优化](#45restartload-optimization-重新开始载入优化)
 
 # 1. General Overview 总括
 
@@ -582,7 +582,7 @@ Same as the “Generation setting” in the subtractive component. Please refer 
 
 该部分内容请参考2.3
 
-# 5 Design Optimization 设计优化
+# 4 Design Optimization 设计优化
 
 In order to drive the optimization process, EvoMass provides a hybrid evolutionary algorithm called Steady-State Island Evolutionary Algorithm (SSIEA). SSIEA is designed to support a more explorative optimization search by subdividing the design population into several subpopulations, each can focus on a distinct region in the whole design search space. In addition, the component containing SSIEA also implements functions to facilitate the use of EvoMass such as auto-backup and screen capture, etc.
 
@@ -632,9 +632,9 @@ Once all the parameters are defined, you can click the “**Start**” button to
 
 当所有参数设定完毕，请按下“Start“按钮开始优化。请注意，当优化开始后EvoMass会自动在当前的文件夹创建一个备份文件夹，其中包括优化过程数据、备份的gh文件和生成组件的设置文件。同时，如果该目录下已有的备份文件将会被覆盖。所以，在进行每次优化前，建议将gh文件放入一个空文件夹。
 
-3.  ## Optimization Viewer 优化窗口
+## 4.3 Optimization Viewer 优化窗口
 
-    1.  ### Main Viewer 主窗口
+### 4.3.1 Main Viewer 主窗口
 
 Once an optimization starts, another optimization progress viewer will pop up. In this viewer, you can monitor the progress of the optimization, current generations, and the number of iterations left for the optimization. The main table lists all the generated and evaluated design, their fitness scores, other recorded values, and parameters. When the mouse hovers on any of these items, a preview image will pop up if you enable the “Save ScreenShots” option in the SSIEA setting panel. Regarding the “**Display Option**”, you can select the designs from a specific subpopulation. Regarding the “**Filter**”, you can select only displaying improvement designs or the Pareto solutions. If you ticked the “**only show current population**”, only the alive designs will be listed in the table.
 
@@ -642,7 +642,7 @@ Once an optimization starts, another optimization progress viewer will pop up. I
 
 ![](media/image203.png)
 
-### Improvement Viewer 改进解窗口
+### 4.3.2 Improvement Viewer 改进解窗口
 
 If you click the “**Improvement**” button, a diagram of the improvement designs will pop up. The color of the line indicates the subpopulation of the design. In addition, in the “**Display Option**”, you can choose different details to be shown in the diagram.
 
@@ -650,7 +650,7 @@ If you click the “**Improvement**” button, a diagram of the improvement desi
 
 ![](media/image204.png)
 
-### Information Viewer 信息窗口
+### 4.3.3 Information Viewer 信息窗口
 
 In the main viewer, once you click the “**Information**” button, a diagram of the optimization progress will pop up. The color of the line indicates the subpopulation. The thinner line indicates the average fitness progress of each subpopulation, and the thicker line indicates the standard deviation of the fitness in each subpopulation. By clicking the “**Display Option**”, you can change the displayed information to the Parallel Coordinate.
 
@@ -670,7 +670,7 @@ In the “**Display Option**”, you can also choose the one only displaying the
 
 ![](media/image207.png)
 
-## Data Backup 数据备份
+## 4.4 Data Backup 数据备份
 
 When the optimization is running, a backup folder is automatically created to restore the data related to the optimization. **Please be aware that, EvoMass will automatically create a bunch of backup files, including the gh file, optimization data, generative component setup, etc, in a backup folder where you save this current gh file. In addition, the previous backup files will be overwritten. Thus, it is recommended to create a new folder to restore the gh file for each optimization run.**
 
@@ -690,7 +690,7 @@ In addition, if you accidentally change your original gh file, you can find a ba
 
 ![](media/image210.png)
 
-## Restart/Load Optimization 重新开始/载入优化
+## 4.5 Restart/Load Optimization 重新开始/载入优化
 
 It is common that the optimization is interrupted by computer crushing, or you need to stop it and restart it again tomorrow. In addition, you may want to restore the data first and analyze the result later on. Therefore, in EvoMass you can load the optimization data whenever it is convenient for you. When stoping the optimization, you don’t need to save the optimization process, but you just need to find the latest XML file in the backup folder. With this file, click the “**Load Project**” button on the SSIEA tab and the optimization will be loaded.
 
