@@ -126,7 +126,7 @@ This user guide is based on EvoMass **0.3.3** and published on **Novermber 21, 2
 
 [4.5. Restart/Load Optimization 重新开始/载入优化 38](#restartload-optimization-重新开始载入优化)
 
-# General Overview 总括
+# 1. General Overview 总括
 
 EvoMass is an integrated building massing design generation and optimization tool, primarily aimed at performance-based architectural design. Instead of focusing purely on numerical optimization, the application of EvoMass is aimed to support optimization-based design exploration, where the optimization helps designers to extract design information, understand the design implications related to building performance, and synthesize the information into the ideation and conceptual development process.
 
@@ -140,7 +140,7 @@ The combination of the design generation and optimization component as well as o
 
 上述两部分算法，和其他建筑性能模拟工具，如Ladybugs和ClimateStudio，的结合可以使设计师快速的对设计生成和优化进行定义，并进行对应的设计优化。设计优化的结果可以帮助设计师发现设计中潜在特征和趋势，并以此作为一种对设计问题进行考察和反思的媒介。
 
-## Installation 安装
+## 1.1 Installation 安装
 
 To install EvoMass, simply drag the gha file to the Grasshopper canvas, or replace the old one in the component folder if you already installed it. Remember to **unblock** the gha if you cannot find EvoMass on the Grasshopper tab as shown below.
 
@@ -156,7 +156,7 @@ If a **loading error** shows up during you start Rhino, you will need to type in
 |-----------------------|-----------------------|
 | ![](media/image2.png) | ![](media/image3.png) |
 
-## Start your first run of using EvoMass 开始使用
+## 1.2 Start your first run of using EvoMass 开始使用
 
 Running EvoMass is easy, there are several examples provided along with the installation zip file. Simply open one of these examples as shown below, and follow the instructions to define the formal feature of the generated building massing design, design context, optimization objectives, and finally, the parameter of SSIEA. **Note that, Ladybugs need to be first installed on your Grasshopper to run these examples.**
 
@@ -164,7 +164,7 @@ Running EvoMass is easy, there are several examples provided along with the inst
 
 ![](media/image4.png)
 
-## Activation 激活
+## 1.3 Activation 激活
 
 When installing EvoMass for the first time, there are 500 trial runs along with the installation. After that, you will need to apply for the activation code to continue using EvoMass. The application of the activation code is free for the moment, and there will be 5000 additional runs added up to your computer. For application, please use these links: [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf4fYlOATW2Tp3zp6Y9nZynsCx-ZF_2wWzX7xCrRFTzW4x2Jw/viewform) and [腾讯表格](https://docs.qq.com/form/edit/DVGp4VHVGeFpRelN3#/fill), and you will receive an email with the action code soon. The below image shows you how to activate EvoMass on your computer.
 
@@ -172,7 +172,7 @@ When installing EvoMass for the first time, there are 500 trial runs along with 
 
 ![](media/image5.jpeg)
 
-## Learn how to use EvoMass 学习使用EvoMass
+## 1.4 Learn how to use EvoMass 学习使用EvoMass
 
 Apart from the provided examples, there are several tutorials uploaded to [YouTube](https://youtu.be/DG_VkFP1jB8) and [Bilibili](https://www.bilibili.com/video/BV1w3411C79K?share_source=copy_web). In addition, a couple of research papers also published revolve around the application of EvoMass. You can find the link to these papers on the EvoMass page in Food4Rhino (<https://www.food4rhino.com/en/app/evomass>) as shown below. **It is strongly recommended to read some of these papers, as EvoMass is not a tool simply to produce building forms.**
 
@@ -180,19 +180,19 @@ Apart from the provided examples, there are several tutorials uploaded to [YouTu
 
 ![](media/image6.png)
 
-## About this user guide 关于该指引
+## 1.5 About this user guide 关于该指引
 
 This user guide will take you walk through the major functions of EvoMass. Following this section, the two generative components are first elaborated, followed by the description of the evolutionary algorithm component (SSIEA).
 
 本指引将引导使用者了解EvoMass的主要功能，在本节后，将会对两个生成算法进行介绍，之后再对优化算法进行介绍。
 
-# Design Generation Part 1 (Subtractive component) 设计生成1（减法组件）
+# 2 Design Generation Part 1 (Subtractive component) 设计生成1（减法组件）
 
 The subtractive component implements the subtractive form generation principle. This component generates building massing by creating several voids in a pre-defined spatial volume. By defining the size and position of the void, you can tailor the general formal feature of the generated building massing volume and make it satisfy your design intent. This section presents the major functions of this component.
 
 减法组件以“减法”原则为核心，通过在一个预定义的体积中去除若干空间实现体量的生成。该组件可以通过对负空间的尺寸和位置进行控制，对生成体量的总体特征进行约束和干预，并以此满足不同的设计条件和意图。
 
-## Basic setting 基本设定
+## 2.1 Basic setting 基本设定
 
 The basic setting panel of the subtractive component is shown below. In this panel, you can define the most important parameters that affect the formal features of the generated design, including the initial volume, number of voids, size constraint of voids, etc. Kindly remember to click the “**Set Parameter”** button once you have finished defining the parameters
 
@@ -200,7 +200,7 @@ The basic setting panel of the subtractive component is shown below. In this pan
 
 ![](media/image7.png)
 
-### Initial Volume 初始体量
+### 2.1.1 Initial Volume 初始体量
 
 The initial volume lets you define the **type** of the generated building massing, such as high-rise towers or middle-rise complex buildings. In this component, the initial volume is horizontally defined by the column-grid numbers and the span size of the column gird and vertically defined by the number of floors and the floor height. In addition, you can define different span sizes in the two directions and the range of the floor numbers for achieving higher design flexibility.
 
@@ -212,7 +212,7 @@ The initial volume lets you define the **type** of the generated building massin
 | ![](media/image14.png) | ![](media/image15.png) | ![](media/image16.png) |
 | ![](media/image17.png) | ![](media/image18.png) | ![](media/image19.png) |
 
-### Subtractor (Voids) 削减体（负空间）
+### 2.1.2 Subtractor (Voids) 削减体（负空间）
 
 Subtractors are used to create the void in the initial volume. The **number** and **size** of the subtractor affect the **complexity** of the generated design. In the subtractive component, there are two types of subtractors: horizontal ones and vertical ones. Regarding horizontal subtractors, they are aimed to create features such as stilts, void decks, and sky gardens. Regarding vertical subtractors, they are aimed to create features such as courtyards and atriums. Therefore, you can set the number to 0 if you don’t want either of the two features appearing in the generated design. In addition, the **size** of the subtractor allows you to define how large the void will be in the generated design.
 
@@ -226,7 +226,7 @@ Subtractors are used to create the void in the initial volume. The **number** an
 | ![](media/image32.png) | ![](media/image33.png) | ![](media/image34.png) |
 | ![](media/image35.png) | ![](media/image36.png) | ![](media/image37.png) |
 
-### Boundary Constraint 边界约束
+### 2.1.3 Boundary Constraint 边界约束
 
 In the subtractive component, the boundary constraint controls the horizontal position of all **vertical voids**. The purpose of the constraint is to allow users to decide how the vertical voids affect the overall building forms, especially whether or not the initial volume visually remains intact. There are different modes. For the first one, all voids are kept inside the volume, thus the boundary of the initial volume will be preserved. For the second one, all voids are kept on the edge of the boundary, which allows the building to have an L-shaped or U-shaped footprint or a staggering boundary. For the third one, there is no constraint on the voids, and the building can be cut into two or three parts.
 
@@ -236,7 +236,7 @@ In the subtractive component, the boundary constraint controls the horizontal po
 |------------------------|------------------------|------------------------|
 | ![](media/image41.png) | ![](media/image42.png) | ![](media/image43.png) |
 
-### Generate Cores 生成核心筒
+### 2.1.4 Generate Cores 生成核心筒
 
 This function is aimed to make the generated design more realistic by inserting cores for structural or circulation purposes. The core will affect the voids close to it. In addition, the core control distance defines the distance between the core boundary to the building's external façade surface or the corner.
 
@@ -246,7 +246,7 @@ This function is aimed to make the generated design more realistic by inserting 
 |------------------------|------------------------|------------------------|
 | ![](media/image47.png) | ![](media/image48.png) | ![](media/image49.png) |
 
-### Target Gross Area 目标建筑面积
+### 2.1.5 Target Gross Area 目标建筑面积
 
 This function allows you to define the rough volume of the building by using the **gross floor area**. When it is activated, it will cost more time to generate the building. In addition, please be aware that the component cannot guarantee the target GFA can be achieved under all circumstances, especially when there is a huge gap between the basic volume and the target GFA.
 
@@ -256,7 +256,7 @@ This function allows you to define the rough volume of the building by using the
 |------------------------|------------------------|------------------------|
 | ![](media/image53.png) | ![](media/image54.png) | ![](media/image55.png) |
 
-### Façade Types 立面类型
+### 2.1.6 Façade Types 立面类型
 
 When using different simulation tools, the required window geometry can be different. In the subtractive component, there are four types of façade types, including simple strip openings, simple fully glazed walls, window openings, and fully glazed walls. Please choose the appropriate type according to your project.
 
@@ -268,7 +268,7 @@ When using different simulation tools, the required window geometry can be diffe
 | ![](media/image62.png) | ![](media/image63.png) | ![](media/image64.png) |
 | ![](media/image65.png) | ![](media/image66.png) | ![](media/image67.png) |
 
-## Advanced setting 高级设定
+## 2.2 Advanced setting 高级设定
 
 In the advanced setting, these parameters allow you to create a more complex building massing design or further navigate the generation process to tailor the formal features. These parameters are not mandatory and can be set as default in most cases.
 
@@ -276,7 +276,7 @@ In the advanced setting, these parameters allow you to create a more complex bui
 
 ![](media/image68.png)
 
-### Interfering point 干扰点
+### 2.2.1 Interfering point 干扰点
 
 This function allows you to define a point to attract or repel the void to or from it. For example, you can use it to define an entrance area by attracting more voids to this area. When using this function, you need to first draw a point in **Rhino** instead of in Grasshopper and pick it after you click the “Set Point” button. In addition, positive values mean attraction, and negative values mean repulsion.
 
@@ -286,7 +286,7 @@ This function allows you to define a point to attract or repel the void to or fr
 |------------------------|------------------------|------------------------|
 | ![](media/image72.png) | ![](media/image73.png) | ![](media/image74.png) |
 
-### Separation Control 分离控制
+### 2.2.2 Separation Control 分离控制
 
 This function allows you to define the closeness of the voids. If it is activated, the voids will be more separate from each other in the horizontal and/or vertical directions.
 
