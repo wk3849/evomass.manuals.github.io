@@ -162,15 +162,15 @@ Running EvoMass is easy, there are several examples provided along with the inst
 
 为了帮助使用者快速熟悉EvoMass的操作，在下载的压缩包中提供了多个示例文件。使用这些示例文件（下图），只需跟随上面的指引，对生成参数、场地环境和优化参数进行定义后，便可以运行优化过程。注意，运行这些案例需安装Ladybugs。
 
-![](media/image4.png)
+![image]([media/image4.png](https://github.com/wk3849/evomass.manuals.github.io/blob/6f120332fd05b33417e6d4e36e33800c9fbd7425/images/image004.png)
 
 ## 1.3 Activation 激活
 
-When installing EvoMass for the first time, there are 500 trial runs along with the installation. After that, you will need to apply for the activation code to continue using EvoMass. The application of the activation code is free for the moment, and there will be 5000 additional runs added up to your computer. For application, please use these links: [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf4fYlOATW2Tp3zp6Y9nZynsCx-ZF_2wWzX7xCrRFTzW4x2Jw/viewform) and [腾讯表格](https://docs.qq.com/form/edit/DVGp4VHVGeFpRelN3#/fill), and you will receive an email with the action code soon. The below image shows you how to activate EvoMass on your computer.
+When installing EvoMass for the first time, there are 200 credits along with the installation. After that, you will need to apply for the activation code to renew the credits of using EvoMass. The application of the credit renewal code is free at the moment, and there will be 10000 additional runs added up to your computer. To apply for the credit renewal code, please use these links: [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf4fYlOATW2Tp3zp6Y9nZynsCx-ZF_2wWzX7xCrRFTzW4x2Jw/viewform) and [腾讯表格](https://docs.qq.com/form/edit/DVGp4VHVGeFpRelN3#/fill), and you will receive an email with the renewal code soon. The below image shows you how to renew the credits of EvoMass on your computer.
 
-第一次安装EvoMass后，将有500次操作次数。随后则需要申请激活码获得更多的操作次数。目前每次激活码申请将获得10000次的操作次数。请使用以下链接申请激活码: [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf4fYlOATW2Tp3zp6Y9nZynsCx-ZF_2wWzX7xCrRFTzW4x2Jw/viewform) 和 [腾讯表格](https://docs.qq.com/form/edit/DVGp4VHVGeFpRelN3#/fill), 激活码会尽快发至申请中的邮箱。下图为输入激活码的流程。
+第一次安装EvoMass后，将有200次操作次数。随后则需要申请激活码获得更多的操作次数。目前每次激活码申请将获得10000次的操作次数。请使用以下链接申请激活码: [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf4fYlOATW2Tp3zp6Y9nZynsCx-ZF_2wWzX7xCrRFTzW4x2Jw/viewform) 和 [腾讯表格](https://docs.qq.com/form/edit/DVGp4VHVGeFpRelN3#/fill), 激活码会尽快发至申请中的邮箱。下图为输入激活码的流程。
 
-![](media/image5.jpeg)
+![image](media/image4.png](https://github.com/wk3849/evomass.manuals.github.io/blob/6f120332fd05b33417e6d4e36e33800c9fbd7425/images/image005.png)
 
 ## 1.4 Learn how to use EvoMass 学习使用EvoMass
 
@@ -178,7 +178,7 @@ Apart from the provided examples, there are several tutorials uploaded to [YouTu
 
 除了随带的案例，在[YouTube](https://youtu.be/DG_VkFP1jB8) 和 [Bilibili](https://www.bilibili.com/video/BV1w3411C79K?share_source=copy_web) 也提供了影响的教程视频。此外，一些与EvoMass应用相关的研究文章也可以在Food4Rhino找到相关的链接。这些文章也可以帮助使用者更好地理解EvoMass在建筑设计中的应用潜力。
 
-![](media/image6.png)
+![image](media/image4.png](https://github.com/wk3849/evomass.manuals.github.io/blob/6f120332fd05b33417e6d4e36e33800c9fbd7425/images/image006.png)
 
 ## 1.5 About this user guide 关于该指引
 
