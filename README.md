@@ -152,9 +152,8 @@ If a **loading error** shows up during you start Rhino, you will need to type in
 
 如果安装EvoMass后，出现了下图左中的加载错误，可以在Rhino中键入“GrasshopperDeveloperSettings”，并取消第一个选项（下图右）。
 
-|                       |                       |
+| ![image](https://github.com/wk3849/evomass.manuals.github.io/blob/6f120332fd05b33417e6d4e36e33800c9fbd7425/images/image002.png) |  ![image](https://github.com/wk3849/evomass.manuals.github.io/blob/6f120332fd05b33417e6d4e36e33800c9fbd7425/images/image003.png) |
 |-----------------------|-----------------------|
-| ![image](https://github.com/wk3849/evomass.manuals.github.io/blob/6f120332fd05b33417e6d4e36e33800c9fbd7425/images/image002.png) | ![image](https://github.com/wk3849/evomass.manuals.github.io/blob/6f120332fd05b33417e6d4e36e33800c9fbd7425/images/image003.png) |
 
 ## 1.2 Start your first run of using EvoMass 开始使用
 
