@@ -388,7 +388,7 @@ Generation setting allows you to control the generation of the design, such as s
 
 生成设定帮助设计师对生成的建筑进行控制，例如缩放，显示边界，控制可变范围。
 
-![image](images/image7.png)
+![image](images/image007.png)
 
 ### 2.4.1 Scaling 缩放
 
@@ -428,7 +428,7 @@ This function allows you to save the setting you define as an external file and 
 
 该功能可以将现有的参数设定（基本设定、高级设定和变换设定）保存为外部文件，并可以被其他gh文件中的相应组件（减法组件）载入。该功能帮助设计师更好地保存不同的生成参数设定，并被其他人或在其他项目总再次使用。
 
-![image](images/image7.png)
+![image](images/image007.png)
 
 # 3 Design Generation Part 2 (Additive component) 设计生成2 （加法组件）
 
@@ -486,19 +486,19 @@ I
 
 ### 3.1.3 Generate Cores 生成核心筒
 
-Same as the “Generate Cores” function in the subtractive component. Please refer to 2.1.4.(#214-generate-cores-生成核心筒)
+Same as the “Generate Cores” function in the subtractive component. Please refer to [2.1.4.](#214-generate-cores-生成核心筒)
 
 该部分内容请参考2.1.4
 
 ### 3.1.4 Target Gross Area 目标建筑面积
 
-Same as the “Generate Cores” function in the subtractive component. Please refer to 2.1.5.(#215-target-gross-area-目标建筑面积)
+Same as the “Generate Cores” function in the subtractive component. Please refer to [2.1.5.](#215-target-gross-area-目标建筑面积)
 
 该部分内容请参考2.1.5
 
 ### 3.1.5 Façade Types 立面类型
 
-Same as the “Generate Cores” function in the subtractive component. Please refer to 2.1.6.(#216-façade-types-立面类型)
+Same as the “Generate Cores” function in the subtractive component. Please refer to [2.1.6.](#216-façade-types-立面类型)
 
 该部分内容请参考2.1.6
 
@@ -544,7 +544,7 @@ This function allows you to define more complex building footprint by delineatin
 
 ### 3.2.4 External Volume 外部体量
 
-Same as the “External Volume” function in the subtractive component. Please refer to 2.2.4.(#224-external-volume-外部体量)
+Same as the “External Volume” function in the subtractive component. Please refer to [2.2.4.](#224-external-volume-外部体量)
 
 该部分内容请参考2.2.4
 
@@ -558,25 +558,25 @@ When using the additive component, it is easier for generating chaotic designs s
 
 ### 3.2.6 Fixed Void 固定负空间
 
-Same as the “Fixed Void” function in the subtractive component. Please refer to 2.2.6.(#226-fixed-void-固定负空间)
+Same as the “Fixed Void” function in the subtractive component. Please refer to [2.2.6.](#226-fixed-void-固定负空间)
 
 该部分内容请参考2.2.6
 
 ### 3.2.7 Unit Masses Appearing Position 子体量位置约束
 
-Same as the “Subtractor Appearing Position” function in the subtractive component. Please refer to 2.2.7.(#227-subtractor-appearing-position-削减体位置控制)
+Same as the “Subtractor Appearing Position” function in the subtractive component. Please refer to [2.2.7.](#227-subtractor-appearing-position-削减体位置控制)
 
 该部分内容请参考2.2.7
 
 ## 3.3 Transformation 变换设定
 
-Same as the “Transformation” tab in the subtractive component. Please refer to 2.3.(#23-transformation-setting-变换设定)
+Same as the “Transformation” tab in the subtractive component. Please refer to [2.3.](#23-transformation-setting-变换设定)
 
 该部分内容请参考2.3
 
 ## 3.4 Generation setting 生成设定
 
-Same as the “Generation setting” in the subtractive component. Please refer to 2.3.(#23-transformation-setting-变换设定)
+Same as the “Generation setting” in the subtractive component. Please refer to [2.3.](#23-transformation-setting-变换设定)
 
 该部分内容请参考2.3
 
