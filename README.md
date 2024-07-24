@@ -146,13 +146,13 @@ To install EvoMass, simply drag the gha file to the Grasshopper canvas, or repla
 
 安装EvoMass，仅需将相应的gha文件拖入Grasshopper界面，或替换在组件文件夹中原有的gha文件即可。如果在完成上述操作后，在工具栏中未出现EvoMass相关标签，请检查gha文件是否已经检索（右击gha文件-属性第一栏最下部）。
 
-![image](https://github.com/wk3849/evomass.manuals.github.io/blob/6f120332fd05b33417e6d4e36e33800c9fbd7425/images/image001.png)
+![image](images\image001.png)
 
 If a **loading error** shows up during you start Rhino, you will need to type in “GrasshopperDeveloperSettings” in the Rhino command line and disable the first option as shown below.
 
 如果安装EvoMass后，出现了下图左中的加载错误，可以在Rhino中键入“GrasshopperDeveloperSettings”，并取消第一个选项（下图右）。
 
-| ![image](https://github.com/wk3849/evomass.manuals.github.io/blob/6f120332fd05b33417e6d4e36e33800c9fbd7425/images/image002.png) |  ![image](https://github.com/wk3849/evomass.manuals.github.io/blob/6f120332fd05b33417e6d4e36e33800c9fbd7425/images/image003.png) |
+| ![image](images/image002.png) |  ![image](images/image003.png) |
 |-----------------------|-----------------------|
 
 ## 1.2 Start your first run of using EvoMass 开始使用
@@ -161,7 +161,7 @@ Running EvoMass is easy, there are several examples provided along with the inst
 
 为了帮助使用者快速熟悉EvoMass的操作，在下载的压缩包中提供了多个示例文件。使用这些示例文件（下图），只需跟随上面的指引，对生成参数、场地环境和优化参数进行定义后，便可以运行优化过程。注意，运行这些案例需安装Ladybugs。
 
-![image](https://github.com/wk3849/evomass.manuals.github.io/blob/6f120332fd05b33417e6d4e36e33800c9fbd7425/images/image004.png)
+![image](images/image004.png)
 
 ## 1.3 Activation 激活
 
@@ -169,7 +169,7 @@ When installing EvoMass for the first time, there are 200 credits along with the
 
 第一次安装EvoMass后，将有200次操作次数。随后则需要申请激活码获得更多的操作次数。目前每次激活码申请将获得10000次的操作次数。请使用以下链接申请激活码: [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf4fYlOATW2Tp3zp6Y9nZynsCx-ZF_2wWzX7xCrRFTzW4x2Jw/viewform) 和 [腾讯表格](https://docs.qq.com/form/edit/DVGp4VHVGeFpRelN3#/fill), 激活码会尽快发至申请中的邮箱。下图为输入激活码的流程。
 
-![image](https://github.com/wk3849/evomass.manuals.github.io/blob/1c779b343bb225cdea140e4a829507712ee8b47e/images/image005.jpg)
+![image](images/image005.jpg)
 
 ## 1.4 Learn how to use EvoMass 学习使用EvoMass
 
@@ -177,7 +177,7 @@ Apart from the provided examples, there are several tutorials uploaded to [YouTu
 
 除了随带的案例，在[YouTube](https://youtu.be/DG_VkFP1jB8) 和 [Bilibili](https://www.bilibili.com/video/BV1w3411C79K?share_source=copy_web) 也提供了影响的教程视频。此外，一些与EvoMass应用相关的研究文章也可以在Food4Rhino找到相关的链接。这些文章也可以帮助使用者更好地理解EvoMass在建筑设计中的应用潜力。
 
-![image](https://github.com/wk3849/evomass.manuals.github.io/blob/6f120332fd05b33417e6d4e36e33800c9fbd7425/images/image006.png)
+![image](images/image006.png)
 
 ## 1.5 About this user guide 关于该指引
 
@@ -197,7 +197,7 @@ The basic setting panel of the subtractive component is shown below. In this pan
 
 减法组件的基本设定面包如下图所示。该面板包含了控制生成体量形态整体特征的主要参数，包括初始体量、负空间数量和尺寸等。在输入完成后，需按下“Set Parameter”以完成对设计生成的设定。
 
-![](media/image7.png)
+![image](images/image007.png)
 
 ### 2.1.1 Initial Volume 初始体量
 
@@ -205,11 +205,11 @@ The initial volume lets you define the **type** of the generated building massin
 
 初始体量帮助设计师对生成建筑的类型进行控制，如高层塔楼或多层综合体等。在该塑件中，初始体量有进深、开间和层数，以及柱间距和层高共同控制。同时柱间距提供了两个方向的尺寸调整，以实现更高的形态灵活性。
 
-| ![](media/image8.png)  | ![](media/image9.png)  | ![](media/image10.png) |
+| ![image](images/image008.png)  | ![image](images/image009.png)  | ![image](images/image010.png) |
 |------------------------|------------------------|------------------------|
-| ![](media/image11.png) | ![](media/image12.png) | ![](media/image13.png) |
-| ![](media/image14.png) | ![](media/image15.png) | ![](media/image16.png) |
-| ![](media/image17.png) | ![](media/image18.png) | ![](media/image19.png) |
+| ![image](images/image011.png) | ![image](images/image012.png) | ![image](images/image013.png) |
+| ![image](images/image014.png) | ![image](images/image015.png) | ![image](images/image016.png) |
+| ![image](images/image017.png) | ![image](images/image018.png) | ![image](images/image019.png) |
 
 ### 2.1.2 Subtractor (Voids) 削减体（负空间）
 
@@ -217,13 +217,13 @@ Subtractors are used to create the void in the initial volume. The **number** an
 
 削减体用于在初始体量中生成负空间。不同的削减体数量和尺寸能够对生成设计的复杂度产生直接影响。减法组件包含水平和垂直两种削减体。前者用于生如架空空间、屋顶平台等水平向空间元素，后者主要生成如中庭、庭院等垂直向空间元素。所以，可以将任一一种的数量设置为0，如果设计师不希望在生成的体量中出现该类空间元素。此外，削减体的尺寸可以帮助设计师对负空间的大小进行干预。
 
-| ![](media/image20.png) | ![](media/image21.png) | ![](media/image22.png) |
+| ![image](images/image020.png) | ![image](images/image021.png) | ![image](images/image022.png) |
 |------------------------|------------------------|------------------------|
-| ![](media/image23.png) | ![](media/image24.png) | ![](media/image25.png) |
-| ![](media/image26.png) | ![](media/image27.png) | ![](media/image28.png) |
-| ![](media/image29.png) | ![](media/image30.png) | ![](media/image31.png) |
-| ![](media/image32.png) | ![](media/image33.png) | ![](media/image34.png) |
-| ![](media/image35.png) | ![](media/image36.png) | ![](media/image37.png) |
+| ![image](images/image023.png) | ![image](images/image024.png) | ![image](images/image025.png) |
+| ![image](images/image026.png) | ![image](images/image027.png) | ![image](images/image028.png) |
+| ![image](images/image029.png) | ![image](images/image030.png) | ![image](images/image031.png) |
+| ![image](images/image032.png) | ![image](images/image033.png) | ![image](images/image034.png) |
+| ![image](images/image035.png) | ![image](images/image036.png) | ![image](images/image037.png) |
 
 ### 2.1.3 Boundary Constraint 边界约束
 
@@ -231,9 +231,9 @@ In the subtractive component, the boundary constraint controls the horizontal po
 
 在减法组件中，边界约束用于控制所有垂直削减体的水平位置。该约束可以帮助设计师更好地控制生成体量的可变范围，尤其是初始体量是否能被保存。目前提供了三种约束方式，第一种方式使所有的垂直削减体在初始体量中间，即初始体量的边界不会被破坏；第二种使垂直削减体在初始体量边界上，可以生成如L型或U型平面的建筑；第三种不对垂直削减体进行约束，可以生成更为自由的形体，如两个分开的体量。
 
-| ![](media/image38.png) | ![](media/image39.png) | ![](media/image40.png) |
+| ![image](images/image038.png) | ![image](images/image039.png) | ![image](images/image040.png) |
 |------------------------|------------------------|------------------------|
-| ![](media/image41.png) | ![](media/image42.png) | ![](media/image43.png) |
+| ![image](images/image041.png) | ![image](images/image042.png) | ![image](images/image043.png) |
 
 ### 2.1.4 Generate Cores 生成核心筒
 
@@ -241,9 +241,9 @@ This function is aimed to make the generated design more realistic by inserting 
 
 该功能用于生成核心筒（交通或结构用途）以使生成的设计具有更高的实际参考价值。当使用该功能时，与核心筒相连的削减体会被影响。同时核心筒将会根据与建筑平面尺寸和外墙的距离自动进行数量和位置计算。
 
-| ![](media/image44.png) | ![](media/image45.png) | ![](media/image46.png) |
+| ![image](images/image044.png) | ![image](images/image045.png) | ![image](images/image046.png) |
 |------------------------|------------------------|------------------------|
-| ![](media/image47.png) | ![](media/image48.png) | ![](media/image49.png) |
+| ![image](images/image047.png) | ![image](images/image048.png) | ![image](images/image049.png) |
 
 ### 2.1.5 Target Gross Area 目标建筑面积
 
@@ -251,9 +251,9 @@ This function allows you to define the rough volume of the building by using the
 
 该功能使设计师可以通过建筑面积对生成体量的体积进行大致的控制。开启该功能会消耗更多的计算时间已完成设计生成。同时需要注意的时，该功能无法保证在所有情况下均输出接近目标建筑面积的设计，尤其是当生成建筑与目标建筑面积间面积差值较大时。
 
-| ![](media/image50.png) | ![](media/image51.png) | ![](media/image52.png) |
+| ![image](images/image050.png) | ![image](images/image051.png) | ![image](images/image052.png) |
 |------------------------|------------------------|------------------------|
-| ![](media/image53.png) | ![](media/image54.png) | ![](media/image55.png) |
+| ![image](images/image053.png) | ![image](images/image054.png) | ![image](images/image055.png) |
 
 ### 2.1.6 Façade Types 立面类型
 
@@ -261,11 +261,11 @@ When using different simulation tools, the required window geometry can be diffe
 
 不同的性能模拟工具往往需要不同的输入立面类型，因此减法组件提供了四种不同的立面类型，包括连续条形窗、连续落地窗、点窗和玻璃幕墙。请根据性能模拟工具的要求进行选择。
 
-| ![](media/image56.png) | ![](media/image57.png) | ![](media/image58.png) |
+| ![image](images/image056.png) | ![image](images/image057.png) | ![image](images/image058.png) |
 |------------------------|------------------------|------------------------|
-| ![](media/image59.png) | ![](media/image60.png) | ![](media/image61.png) |
-| ![](media/image62.png) | ![](media/image63.png) | ![](media/image64.png) |
-| ![](media/image65.png) | ![](media/image66.png) | ![](media/image67.png) |
+| ![image](images/image059.png) | ![image](images/image060.png) | ![image](images/image061.png) |
+| ![image](images/image062.png) | ![image](images/image063.png) | ![image](images/image064.png) |
+| ![image](images/image065.png) | ![image](images/image066.png) | ![image](images/image067.png) |
 
 ## 2.2 Advanced setting 高级设定
 
@@ -273,7 +273,7 @@ In the advanced setting, these parameters allow you to create a more complex bui
 
 高级设定包含了对生成更复杂体量形体的参数，以及可以更具体控制生成形体的参数。但这些参数在一般情况下并不需要进行设置。
 
-![](media/image68.png)
+![image](images/image068.png)
 
 ### 2.2.1 Interfering point 干扰点
 
@@ -281,9 +281,9 @@ This function allows you to define a point to attract or repel the void to or fr
 
 该功能需要设计师通过干扰点对削减体的位置进行干预。例如可以将削减体吸引至建筑的一侧或一角以生成入口空间。使用该功能需要在Rhino中生成干扰点，并单击“Set Point”键进行拾取。此外，正数值为吸引，负数值为排斥。
 
-| ![](media/image69.png) | ![](media/image70.png) | ![](media/image71.png) |
+| ![image](images/image069.png) | ![image](images/image070.png) | ![image](images/image071.png) |
 |------------------------|------------------------|------------------------|
-| ![](media/image72.png) | ![](media/image73.png) | ![](media/image74.png) |
+| ![image](images/image072.png) | ![image](images/image073.png) | ![image](images/image074.png) |
 
 ### 2.2.2 Separation Control 分离控制
 
@@ -291,11 +291,11 @@ This function allows you to define the closeness of the voids. If it is activate
 
 该功能用于控制削减体间的紧密度。如果开启，削减体在垂直和/或水平方向上会相对分离。
 
-| ![](media/image75.png) | ![](media/image76.png) |
+| ![image](images/image075.png) | ![image](images/image076.png) |
 |------------------------|------------------------|
-| ![](media/image77.png) | ![](media/image78.png) |
-| ![](media/image79.png) | ![](media/image80.png) |
-| ![](media/image81.png) | ![](media/image82.png) |
+| ![image](images/image077.png) | ![image](images/image078.png) |
+| ![image](images/image079.png) | ![image](images/image080.png) |
+| ![image](images/image081.png) | ![image](images/image082.png) |
 
 ### 2.2.3 Custom Boundary 自定义边界
 
@@ -303,9 +303,9 @@ This function allows you to define a more complex building footprint by delineat
 
 该功能允许设计师生成具有更为复杂平面形状的建筑体量。目前该功能仅允许输入闭合的多段线。该多段线需要在Rhino中进行绘制，并拾取。此外，该功能会尽量满足在基础设置中的边界约束。
 
-| ![](media/image83.png) | ![](media/image84.png) | ![](media/image85.png) |
+| ![image](images/image083.png) | ![image](images/image084.png) | ![image](images/image085.png) |
 |------------------------|------------------------|------------------------|
-| ![](media/image41.png) | ![](media/image42.png) | ![](media/image43.png) |
+| ![image](images/image041.png) | ![image](images/image042.png) | ![image](images/image043.png) |
 
 ### 2.2.4 External Volume 外部体量
 
@@ -313,9 +313,8 @@ This function allows you to define an external fixed volume and combine it with 
 
 该功能允许设计师在设计生成中加入一个固定不变的外部体量。该功能可用于仅需要一部分建筑可变的设计条件下，如塔楼不变，裙房可变。
 
-|                        |                        |                        |
+| ![image](images/image086.png) | ![image](images/image087.png) | ![image](images/image088.png) |
 |------------------------|------------------------|------------------------|
-| ![](media/image86.png) | ![](media/image87.png) | ![](media/image88.png) |
 
 ### 2.2.5 Remove Small Mass 去除细碎体量
 
@@ -323,9 +322,9 @@ This function allows you to remove masses that are too small. This function is u
 
 该功能将自动去除生成体量中过小的体量。该功能仅在无边界约束或使所有垂直削减体在初始体量边界时有效。
 
-| ![](media/image89.png) | ![](media/image90.png) |
+| ![image](images/image089.png) | ![image](images/image090.png) |
 |------------------------|------------------------|
-| ![](media/image91.png) | ![](media/image92.png) |
+| ![image](images/image091.png) | ![image](images/image092.png) |
 
 ### 2.2.6 Fixed Void 固定负空间
 
@@ -333,9 +332,9 @@ This function allows you to define an invariable void in the initial volume, whi
 
 该功能用于在生成体量中加入一个不可变的负空间，例如一个中庭建筑或L型平面的建筑。
 
-| ![](media/image93.png) | ![](media/image94.png) | ![](media/image95.png) |
+| ![image](images/image093.png) | ![image](images/image094.png) | ![image](images/image095.png) |
 |------------------------|------------------------|------------------------|
-| ![](media/image96.png) | ![](media/image97.png) | ![](media/image98.png) |
+| ![image](images/image096.png) | ![image](images/image097.png) | ![image](images/image098.png) |
 
 ### 2.2.7 Subtractor Appearing Position 削减体位置控制
 
@@ -343,9 +342,9 @@ This function allows you to define the vertical position that all horizontal voi
 
 该功能用于控制水平削减体在垂直方向的位置。该功能可以进一步精确定义生成设计的特征，如仅存在底层架空或屋顶平台等。
 
-| ![](media/image99.png)  | ![](media/image100.png) | ![](media/image101.png) |
+| ![image](images/image099.png)  | ![image](images/image100.png) | ![image](images/image101.png) |
 |-------------------------|-------------------------|-------------------------|
-| ![](media/image102.png) | ![](media/image103.png) | ![](media/image104.png) |
+| ![image](images/image102.png) | ![image](images/image103.png) | ![image](images/image104.png) |
 
 ## 2.3 Transformation Setting 变换设定
 
@@ -353,7 +352,7 @@ The tab of transformation contains functions that can achieve more complex morph
 
 该部分设置用于实现更复杂的形态变化。
 
-![](media/image105.png)
+![image](images/image105.png)
 
 ### 2.3.1 Orientation 朝向
 
@@ -361,17 +360,17 @@ This function allows you to change the orientation of the building by rotating t
 
 该功能通过旋转体量以改变建筑的朝向。旋转的起始（Start）和结束（End）并非为角度值，而是同时会收到旋转步长的影响。即旋转范围为“起始\*步长“至”结束\*步长“。例如，当起始值为-20，结束值为15，步长为2时，旋转范围为-40至30度。此外，旋转范围仅允许在-90至90度之间。
 
-| ![](media/image106.png) | ![](media/image107.png) | ![](media/image108.png) |
+| ![image](images/image106.png) | ![image](images/image107.png) | ![image](images/image108.png) |
 |-------------------------|-------------------------|-------------------------|
-| ![](media/image109.png) | ![](media/image109.png) | ![](media/image109.png) |
+| ![image](images/image109.png) | ![image](images/image109.png) | ![image](images/image109.png) |
 
 This function is more useful when combined with the custom boundary. When you define a custom boundary, the design can create buildings with a fixed footprint but the void can face different directions.
 
 该功能也可与自定义边界结合使用。当存在自定义边界时，可以通过该功能探索不同朝向的削减体对建筑性能的影响。
 
-| ![](media/image110.png) | ![](media/image111.png) | ![](media/image112.png) |
+| ![image](images/image110.png) | ![image](images/image111.png) | ![image](images/image112.png) |
 |-------------------------|-------------------------|-------------------------|
-| ![](media/image109.png) | ![](media/image109.png) | ![](media/image109.png) |
+| ![image](images/image109.png) | ![image](images/image109.png) | ![image](images/image109.png) |
 
 ### 2.3.2 Shear 切变
 
@@ -379,9 +378,9 @@ This function allows you to easily make shear transformation of the generated bu
 
 该功能可以对生成的建筑体量进行切变变换。请注意，所设定的参数，即切变角度，在优化过程不会改变。
 
-| ![](media/image113.png) | ![](media/image114.png) | ![](media/image115.png) |
+| ![image](images/image113.png) | ![image](images/image114.png) | ![image](images/image115.png) |
 |-------------------------|-------------------------|-------------------------|
-| ![](media/image116.png) | ![](media/image117.png) | ![](media/image118.png) |
+| ![image](images/image116.png) | ![image](images/image117.png) | ![image](images/image118.png) |
 
 ## 2.4 Generation setting 生成设定
 
@@ -389,7 +388,7 @@ Generation setting allows you to control the generation of the design, such as s
 
 生成设定帮助设计师对生成的建筑进行控制，例如缩放，显示边界，控制可变范围。
 
-![](media/image7.png)
+![image](images/image7.png)
 
 ### 2.4.1 Scaling 缩放
 
@@ -397,9 +396,9 @@ Due to different simulation tools that may use different unit systems, this func
 
 由于不同的性能模拟软件采用不同的单位，该功能帮助设计师快速对生成的建筑进行缩放。
 
-| ![](media/image119.png) | ![](media/image120.png) | ![](media/image121.png) |
+| ![image](images/image119.png) | ![image](images/image120.png) | ![image](images/image121.png) |
 |-------------------------|-------------------------|-------------------------|
-| ![](media/image122.png) | ![](media/image123.png) | ![](media/image124.png) |
+| ![image](images/image122.png) | ![image](images/image123.png) | ![image](images/image124.png) |
 
 ### 2.4.2 Display Boundary 显示边界
 
@@ -407,9 +406,9 @@ This function allows you to display the maximum volume of the generated design. 
 
 该功能用于检查初始体量和自定义边界是否正确，尤其是是否与周边场地建筑存在冲突（如交叠）。
 
-| ![](media/image125.png) | ![](media/image126.png) | ![](media/image127.png) |
+| ![image](images/image125.png) | ![image](images/image126.png) | ![image](images/image127.png) |
 |-------------------------|-------------------------|-------------------------|
-| ![](media/image128.png) | ![](media/image129.png) | ![](media/image128.png) |
+| ![image](images/image128.png) | ![image](images/image129.png) | ![image](images/image128.png) |
 
 ### 2.4.3 Shuffle Range 随机变化范围
 
@@ -417,11 +416,11 @@ This function allows you to control the variability when shuffling the design. T
 
 该功能用于控制体量随机变化时的可变范围控制。该功能用于针对所选择设计（一般为优化结果中分值较高的设计）进行进一步的细微变化探索。当该值小于100%时，当前设计的参数将被记录，并以此作为中心点进行参数的调整。如果希望以当前设计为中心点，请单击“Update Massing“。
 
-| ![](media/image130.png) | ![](media/image131.png) | ![](media/image132.png) |
+| ![image](images/image130.png) | ![image](images/image131.png) | ![image](images/image132.png) |
 |-------------------------|-------------------------|-------------------------|
-| ![](media/image133.png) | ![](media/image133.png) | ![](media/image133.png) |
-| ![](media/image134.png) | ![](media/image135.png) | ![](media/image136.png) |
-| ![](media/image137.png) | ![](media/image137.png) | ![](media/image137.png) |
+| ![image](images/image133.png) | ![image](images/image133.png) | ![image](images/image133.png) |
+| ![image](images/image134.png) | ![image](images/image135.png) | ![image](images/image136.png) |
+| ![image](images/image137.png) | ![image](images/image137.png) | ![image](images/image137.png) |
 
 ### 2.4.4 Save/Load 保存/载入
 
@@ -429,7 +428,7 @@ This function allows you to save the setting you define as an external file and 
 
 该功能可以将现有的参数设定（基本设定、高级设定和变换设定）保存为外部文件，并可以被其他gh文件中的相应组件（减法组件）载入。该功能帮助设计师更好地保存不同的生成参数设定，并被其他人或在其他项目总再次使用。
 
-![](media/image7.png)
+![image](images/image7.png)
 
 # 3 Design Generation Part 2 (Additive component) 设计生成2 （加法组件）
 
@@ -443,7 +442,7 @@ The basic setting panel of the subtractive component is shown below. In this pan
 
 加法组件的基本设定面包如下图所示。该面板包含了控制生成体量形态整体特征的主要参数，包括预定义空间边界、子体量数量和尺寸等。在输入完成后，需按下“Set Parameter”以完成对设计生成的设定。
 
-![](media/image138.png)
+![image](images/image138.png)
 
 ### 3.1.1 Spatial Boundary 空间边界
 
@@ -451,21 +450,21 @@ The spatial boundary lets you define the **type** of the generated building mass
 
 空间边界帮助设计师对生成建筑的类型进行控制，如高层塔楼或多层综合体等。在该塑件中，初始体量有进深、开间和层数，以及柱间距和层高共同控制。同时柱间距提供了两个方向的尺寸调整，以实现更高的形态灵活性。
 
-| ![](media/image139.png) | ![](media/image140.png) | ![](media/image141.png) |
+| ![image](images/image139.png) | ![image](images/image140.png) | ![image](images/image141.png) |
 |-------------------------|-------------------------|-------------------------|
-| ![](media/image11.png)  | ![](media/image12.png)  | ![](media/image13.png)  |
-| ![](media/image142.png) | ![](media/image143.png) | ![](media/image144.png) |
-| ![](media/image17.png)  | ![](media/image18.png)  | ![](media/image19.png)  |
+| ![image](images/image011.png)  | ![image](images/image012.png)  | ![image](images/image013.png)  |
+| ![image](images/image142.png) | ![image](images/image143.png) | ![image](images/image144.png) |
+| ![image](images/image017.png)  | ![image](images/image018.png)  | ![image](images/image019.png)  |
 
 Due to the generative mechanism, the generated design based on the additive component cannot ensure that the generated volume can achieve the defined dimension in terms of the footprint and floor number. Therefore, if you want to make the generated design can achieve the column grid and floor number value, you can enable the “Full Height Constraint” and “Fill Boundary”.
 
 由于加法的生成机制，生成设计的常常无法占满整个预定义的空间，例如在较大的范围内生成较小的体量。因此，如果希望生成设计能够占满生成范围，可以使用“Full Height Constraint” 和 “Fill Boundary”来确保生成设计在垂直和水平方向占满生成范围。
 
-| ![](media/image145.png) | ![](media/image146.png) |
+| ![image](images/image145.png) | ![image](images/image146.png) |
 |-------------------------|-------------------------|
-| ![](media/image147.png) | ![](media/image148.png) |
-| ![](media/image149.png) | ![](media/image150.png) |
-| ![](media/image151.png) | ![](media/image152.png) |
+| ![image](images/image147.png) | ![image](images/image148.png) |
+| ![image](images/image149.png) | ![image](images/image150.png) |
+| ![image](images/image151.png) | ![image](images/image152.png) |
 
 ### 3.1.2 Additive Unit Mass 叠加子体量
 
@@ -473,33 +472,33 @@ The additive component creates the building volume by aggregating multiple unit 
 
 加法组件通过多个子体量的叠加生成建筑体量。子体量的个数和尺寸会对生成设计的复杂度产生影响。通过该组件有两种控制总体形态特征的方法。第一种采用填充系数，该方法可以理解为预定义空间内建筑所占空间的大致比例，该方法对建筑体量进行总体的缩小或放大。第二种为采用实际尺寸对每个子体量进行控制。此外，可以对子体量尺寸的上下限设置相同的值，以生成正方形平面的子体量。
 
-| ![](media/image153.png) | ![](media/image154.png) | ![](media/image155.png) |
+| ![image](images/image153.png) | ![image](images/image154.png) | ![image](images/image155.png) |
 |-------------------------|-------------------------|-------------------------|
-| ![](media/image156.png) | ![](media/image157.png) | ![](media/image158.png) |
-| ![](media/image159.png) | ![](media/image160.png) | ![](media/image161.png) |
-| ![](media/image162.png) | ![](media/image163.png) | ![](media/image164.png) |
-| ![](media/image165.png) | ![](media/image166.png) | ![](media/image167.png) |
-| ![](media/image168.png) | ![](media/image169.png) | ![](media/image170.png) |
-| ![](media/image171.png) | ![](media/image172.png) | ![](media/image173.png) |
-| ![](media/image174.png) | ![](media/image175.png) | ![](media/image176.png) |
+| ![image](images/image156.png) | ![image](images/image157.png) | ![image](images/image158.png) |
+| ![image](images/image159.png) | ![image](images/image160.png) | ![image](images/image161.png) |
+| ![image](images/image162.png) | ![image](images/image163.png) | ![image](images/image164.png) |
+| ![image](images/image165.png) | ![image](images/image166.png) | ![image](images/image167.png) |
+| ![image](images/image168.png) | ![image](images/image169.png) | ![image](images/image170.png) |
+| ![image](images/image171.png) | ![image](images/image172.png) | ![image](images/image173.png) |
+| ![image](images/image174.png) | ![image](images/image175.png) | ![image](images/image176.png) |
 
 I
 
 ### 3.1.3 Generate Cores 生成核心筒
 
-Same as the “Generate Cores” function in the subtractive component. Please refer to 2.1.4.
+Same as the “Generate Cores” function in the subtractive component. Please refer to 2.1.4.(#214-generate-cores-生成核心筒)
 
 该部分内容请参考2.1.4
 
 ### 3.1.4 Target Gross Area 目标建筑面积
 
-Same as the “Generate Cores” function in the subtractive component. Please refer to 2.1.5.
+Same as the “Generate Cores” function in the subtractive component. Please refer to 2.1.5.(#215-target-gross-area-目标建筑面积)
 
 该部分内容请参考2.1.5
 
 ### 3.1.5 Façade Types 立面类型
 
-Same as the “Generate Cores” function in the subtractive component. Please refer to 2.1.6.
+Same as the “Generate Cores” function in the subtractive component. Please refer to 2.1.6.(#216-façade-types-立面类型)
 
 该部分内容请参考2.1.6
 
@@ -509,7 +508,7 @@ In advance settings, these parameters allow you to create more complex building 
 
 高级设定包含了对生成更复杂体量形体的参数，以及可以更具体控制生成形体的参数。但这些参数在一般情况下并不需要进行设置。
 
-![](media/image68.png)
+![image](images/image068.png)
 
 ### 3.2.1 Interfering point 干扰点
 
@@ -517,9 +516,9 @@ This function allows you to define a point to attract or repel the unit mass to 
 
 该功能需要设计师通过干扰点对削减体的位置进行干预。例如可以将削减体吸引至建筑的一侧或一角以生成入口空间。使用该功能需要在Rhino中生成干扰点，并单击“Set Point”键进行拾取。此外，正数值为吸引，负数值为排斥。
 
-| ![](media/image177.png) | ![](media/image178.png) | ![](media/image179.png) |
+| ![image](images/image177.png) | ![image](images/image178.png) | ![image](images/image179.png) |
 |-------------------------|-------------------------|-------------------------|
-| ![](media/image72.png)  | ![](media/image73.png)  | ![](media/image74.png)  |
+| ![image](images/image072.png)  | ![image](images/image073.png)  | ![image](images/image074.png)  |
 
 ### 3.2.2 Separation Control 分离控制
 
@@ -527,11 +526,11 @@ This function allows you to define the closeness of the unit mass. If it is acti
 
 该功能用于控制削减体间的紧密度。如果开启，削减体在垂直和/或水平方向上会相对分离。
 
-| ![](media/image180.png) | ![](media/image181.png) |
+| ![image](images/image180.png) | ![image](images/image181.png) |
 |-------------------------|-------------------------|
-| ![](media/image77.png)  | ![](media/image78.png)  |
-| ![](media/image182.png) | ![](media/image183.png) |
-| ![](media/image81.png)  | ![](media/image82.png)  |
+| ![image](images/image077.png)  | ![image](images/image078.png)  |
+| ![image](images/image182.png) | ![image](images/image183.png) |
+| ![image](images/image081.png)  | ![image](images/image082.png)  |
 
 ### 3.2.3 Custom Boundary 自定义边界
 
@@ -539,13 +538,13 @@ This function allows you to define more complex building footprint by delineatin
 
 该功能允许设计师生成具有更为复杂平面形状的建筑体量。目前该功能仅允许输入闭合的多段线。该多段线需要在Rhino中进行绘制，并拾取。此外，该功能会尽量满足在基础设置中的边界约束。
 
-| ![](media/image184.png) | ![](media/image185.png) | ![](media/image186.png) |
+| ![image](images/image184.png) | ![image](images/image185.png) | ![image](images/image186.png) |
 |-------------------------|-------------------------|-------------------------|
-| ![](media/image187.png) | ![](media/image188.png) | ![](media/image189.png) |
+| ![image](images/image187.png) | ![image](images/image188.png) | ![image](images/image189.png) |
 
 ### 3.2.4 External Volume 外部体量
 
-Same as the “External Volume” function in the subtractive component. Please refer to 2.2.4.
+Same as the “External Volume” function in the subtractive component. Please refer to 2.2.4.(#224-external-volume-外部体量)
 
 该部分内容请参考2.2.4
 
@@ -559,25 +558,25 @@ When using the additive component, it is easier for generating chaotic designs s
 
 ### 3.2.6 Fixed Void 固定负空间
 
-Same as the “Fixed Void” function in the subtractive component. Please refer to 2.2.6.
+Same as the “Fixed Void” function in the subtractive component. Please refer to 2.2.6.(#226-fixed-void-固定负空间)
 
 该部分内容请参考2.2.6
 
 ### 3.2.7 Unit Masses Appearing Position 子体量位置约束
 
-Same as the “Subtractor Appearing Position” function in the subtractive component. Please refer to 2.2.7.
+Same as the “Subtractor Appearing Position” function in the subtractive component. Please refer to 2.2.7.(#227-subtractor-appearing-position-削减体位置控制)
 
 该部分内容请参考2.2.7
 
 ## 3.3 Transformation 变换设定
 
-Same as the “Transformation” tab in the subtractive component. Please refer to 2.3.
+Same as the “Transformation” tab in the subtractive component. Please refer to 2.3.(#23-transformation-setting-变换设定)
 
 该部分内容请参考2.3
 
 ## 3.4 Generation setting 生成设定
 
-Same as the “Generation setting” in the subtractive component. Please refer to 2.3.
+Same as the “Generation setting” in the subtractive component. Please refer to 2.3.(#23-transformation-setting-变换设定)
 
 该部分内容请参考2.3
 
@@ -595,7 +594,7 @@ The SSIEA component allows you to connect multiple generative components (subtra
 
 SSIEA组件允许在输出端同时连接多个生成组件（减法/加法组件），以此同时对多个体量进行优化。但是，连接过多的生成组件会增加优化的难度，因此不建议连接超过多于3个生成组件。另一方面，该组件也允许在输入端连接多个数据来源，但是只能有两个作为优化目前，其他的输入数据则仅会被记录，不会对优化产生影响。对于输入端的数据来源，可以通过更改数据所在组件的别称使SSIEA组件对这些数据来源进行识别（后续会进一步解释）。最后没有输入数据来源中仅能包含一个数值，不可为数据列表或树状数据结构。
 
-![](media/image199.png)
+![image](images/image199.png)
 
 ### 4.1.2 Outputs 输出
 
@@ -603,7 +602,7 @@ Once the input and output are properly defined, double click the SSIEA component
 
 当输入和输出端连接完毕，双击SSIEA组件以打开控制对话框。默认的标签栏和对话框为输出设定，该对话框可以对输出端进行设置。这部分主要设置输入参数的类型，包括适应度（Fitness）和数值（Value）。设为适应度的输入参数将对优化产生影响，同时需要在Direction（优化方向）一栏选择对该适应度的优化是最大化（Maximize）或是最小化（Minimize）。最后，你可以在第一栏看到输入数值组件的昵称。需要注意的是，仅有两个输入数值可以被设置为适应度。
 
-![](media/image200.png)
+![image](images/image200.png)
 
 ### 4.1.3 Inputs 输入
 
@@ -611,7 +610,7 @@ In this tab, you can change the viewer to show the information of the input. In 
 
 该对话框可以查看所连接生成器所需要的参数数量，如果有多个连接的生成器，也可以看到这些生成器的名称。在绝大多数情况下，不需查看该对话框。
 
-![](media/image201.png)
+![image](images/image201.png)
 
 ## 4.2 SSIEA setting SSIEA算法设置
 
@@ -619,7 +618,7 @@ The second tab of the component viewer is the setting for SSIEA. In this tab, yo
 
 第二个标签栏是与SSIEA算法相关的设置参数，这些参数将对优化算法的搜索行为产生影响。
 
-![](media/image202.png)
+![image](images/image202.png)
 
 As SSIEA uses an island-based approach that subdivides the design population into subpopulations, the setting of SSIEA for the design population is a little different from other evolutionary algorithms. In SSIEA, you need to define the **number of subpopulations** and **the size of the subpopulation**. The former means how many subpopulations will be created, and the latter means how many design individuals in each subpopulation. Therefore, the total population number is *the number of subpopulations* times *the size of the subpopulation*. In addition, as there are multiple subpopulations, SSIEA allows the design to be migrated from one subpopulation to another one if the latter subpopulation reaches convergence. Thus, you can use the **migration rate** to adjust the possibility of migration. Be aware that, higher migration rates may reduce the design diversity in the optimization result, as high-fitness designs migrated from other subpopulations can eliminate the high-fitness ones in the current subpopulation. The functions of other parameters are listed below.
 
@@ -639,7 +638,7 @@ Once an optimization starts, another optimization progress viewer will pop up. I
 
 当优化开始后，将会出现一个显示优化进程的窗口（下图）。该窗口可以用于监视优化进行，当前代数，迭代次数等。该窗口同时列出了所有已生成和分析的设计。当鼠标悬停在任一行时，该设计的缩略图将会显示（需在优化前开启自动截图功能）。在“**Display Option**”中，可以选择选择任一子种群，并使列表仅显示该子种群中的设计。在“**Filter**”中，可以选择改进解和帕累托解，以使列表仅显示这些设计。若选择“**only show current population**”，则列表仅会显示设计种群中所保留的解，即优化过程中淘汰的设计将不会被显示。
 
-![](media/image203.png)
+![image](images/image203.png)
 
 ### 4.3.2 Improvement Viewer 改进解窗口
 
@@ -647,7 +646,7 @@ If you click the “**Improvement**” button, a diagram of the improvement desi
 
 单击“**Improvement**”后，改进解窗口将会弹出。该图中线段的颜色代表不同子种群中改进解出现的位置。此外，在“**Display Option**”中，可以选择不同的显示内容。
 
-![](media/image204.png)
+![image](images/image204.png)
 
 ### 4.3.3 Information Viewer 信息窗口
 
@@ -655,19 +654,19 @@ In the main viewer, once you click the “**Information**” button, a diagram o
 
 在主窗口，当单击“**Information**”键后，显示优化进程的窗口将会弹出。线段的颜色表示各个子种群。细线表示每个子种群平均适应度变化，粗线则表示每个子种群个体适应度标准差的变化，该指标用于分析子种群中个体的差异度。当单击“**Display Option**”后，将显示平行坐标系。
 
-![](media/image205.png)
+![image](images/image205.png)
 
 In the Parallel Coordinate diagram, you can see the distribution of the parameter of each design.
 
 在平行坐标系中，可以查看设计生成参数和适应度的分布情况。
 
-![](media/image206.png)
+![image](images/image206.png)
 
 In the “**Display Option**”, you can also choose the one only displaying the fitness and values while hiding the parameter values. In addition, you can **right-click** and select the “**Color Sorted by Fitness**” to sort the displaying color. (The default color is sorted by the subpopulation.)
 
 在“**Display Option**”中，可以选择仅显示适应度和数据记录，即不再显示设计生成参数。此外，可以在窗口右击鼠标，选择“**Color Sorted by Fitness**”，使线段的颜色按适应度进行排序。（默认的颜色按子种群进行排序）
 
-![](media/image207.png)
+![image](images/image207.png)
 
 ## 4.4 Data Backup 数据备份
 
@@ -675,19 +674,19 @@ When the optimization is running, a backup folder is automatically created to re
 
 当优化开始后，EvoMass将在当前gh文件所在文件夹创建一个备份文件夹用于储存与优化相关的数据。请注意，EvoMass将会自动创建一系列备份文件，包括gh文件拷贝，优化数据，生成组件设定等。同时，如果该文件夹内已有之前优化的备份文件夹，该备份文件夹中的文件也将会被覆盖。所以建议每次优化时，将gh拷贝至一个新的文件夹后再进行优化。
 
-![](media/image208.png)
+![image](images/image208.png)
 
 In this folder, you will find a bunch of XML files with the name backupXXX.xml. These XML files are created at the end of each generation, and the last one is created at the latest generation. **In addition, if the optimization is accidentally stopped or interrupted, you can use the latest one to restart the optimization.**
 
 在备份文件夹中，包含一些列以Backupxxx.xml命名的文件，这些文件是在优化过程中每代结束后自动创建的，而最后一个则创建于优化结束时。所以，若优化过程意外中断，可以使用最后一个文件恢复已进行的优化。
 
-![](media/image209.png)
+![image](images/image209.png)
 
 In addition, if you accidentally change your original gh file, you can find a backup gh file in this folder. **It is important because the backup XML file can only be successfully loaded if all the settings of the EvoMass components and value/fitness components are unchanged (because the design generation parameters cannot generate the same design if the parameters in the component are changed)**. Lastly, in the images folder, you will find all the screenshots captured during the optimization. However, the images folder will not be created if you didn’t click the “Save ScreenShots” option.
 
 另外，如果不慎修改了原有的gh文件，可以在备份文件夹中找到原有gh文件的拷贝。确保运行优化的gh文件不被更改十分重要，因为若gh文件中生成组件内的参数更改后，优化文件将无法被读取（因为原有的生成参数无法生成优化时生成的设计）。最后，图片文件夹中包含所有在优化过程中截取的设计截图。但是，若没有在优化算法参数中选择“Save ScreenShots”，这些图片将不会被创建。
 
-![](media/image210.png)
+![image](images/image210.png)
 
 ## 4.5 Restart/Load Optimization 重新开始/载入优化
 
@@ -695,10 +694,10 @@ It is common that the optimization is interrupted by computer crushing, or you n
 
 在优化过程中，时长会出现意外打断优化，或者由于特殊原因需要被人为打断。或者优化结束后，希望能够保存优化结果，以备后续进行分析。所以，EvoMass提供了载入优化结果的功能，帮助设计师在方便的时间对优化结果进行分析。如果优化被打断，不需要人为对优化进程进行保存，仅需要在备份文件夹找到最近的XML文件，然后在SSIEA界面单击“**Load Project**”并选取该文件。
 
-![](media/image202.png)
+![image](images/image202.png)
 
 If the loaded optimization is not finished, click the “**Restart Solving**” button once the main viewer pops up.
 
 如果载入的优化尚未完成，单击随后弹出的优化主窗口上的“**Restart Solving**”按钮以继续优化过程。
 
-![](media/image211.png)
+![image](images/image211.png)
