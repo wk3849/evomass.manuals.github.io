@@ -554,7 +554,10 @@ When using the additive component, it is easier for generating chaotic designs s
 
 加法法则的生成逻辑常常会导致无效设计的生成，如悬浮在空中的体量。因此，加法组件包含了三个用于约束体量垂直方向的功能，这些功能功能确保生成设计在建筑上的有效性。但是当实用要求较低时，这些约束也可以被关闭。
 
-[TABLE]
+| ![image](images/image190.png) | ![image](images/image191.png) |  ![image](images/image192.png) |
+|-------------------------|-------------------------| -------------------------|
+| ![image](images/image193.png)  | ![image](images/image194.png)  | ![image](images/image195.png)  |
+| ![image](images/image196.png) | ![image](images/image197.png) | ![image](images/image198.png) |
 
 ### 3.2.6 Fixed Void 固定负空间
 
@@ -624,7 +627,10 @@ As SSIEA uses an island-based approach that subdivides the design population int
 
 由于采用了“多岛模型“，SSIEA算法的参数设置与常见遗传算法的设置略有不同。在使用SSIEA时，需要对子种群的个数和大小进行设计，前者控制子种群的个数，后者控制每个子种群中个体的数量。所以，设计种群的总数为子种群个数\*子种群大小。同时，由于存在多个子种群，SSIEA允许个体在子种群间进行迁移，尤其是时当个别子种群已进行收敛后。因此，可以通过迁移率来调整个体迁移的概率。需要注意的是，迁移率过高会降低优化结果中设计的多样性，这是由于较优的个体迁移至另一子种群后，往往会迅速淘汰原有的个体。下表概况了主要的参数含义。
 
-[TABLE]
+| **Parameter</ br>参数** | **Meaning</ br>含义** |  **Typical Value</ br>典型值** |
+|-------------------------|-------------------------| -------------------------|
+| ![image](images/image193.png)  | ![image](images/image194.png)  | ![image](images/image195.png)  |
+| ![image](images/image196.png) | ![image](images/image197.png) | ![image](images/image198.png) |
 
 Once all the parameters are defined, you can click the “**Start**” button to lunch the optimization. **Please be aware that, after the optimization is started, EvoMass will automatically create a bunch of backup files, including the gh file, optimization data, generative component setup, etc, in a backup folder where you save this current gh file. In addition, the previous backup files will be overwritten. Thus, it is recommended to create a new folder to restore the gh file for each optimization run.**
 
