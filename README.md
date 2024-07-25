@@ -124,7 +124,7 @@ This user guide is based on EvoMass **0.3.3** and published on **Novermber 21, 2
 
 [4.4. Data Backup 数据备份](#44-data-backup-数据备份)
 
-[4.5. Restart/Load Optimization 重新开始/载入优化](#45restartload-optimization-重新开始载入优化)
+[4.5. Restart/Load Optimization 重新开始/载入优化](#45-restartload-optimization-重新开始载入优化)
 
 # 1. General Overview 总括
 
