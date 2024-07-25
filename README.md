@@ -629,8 +629,16 @@ As SSIEA uses an island-based approach that subdivides the design population int
 
 | **Parameter<br />参数** | **Meaning<br />含义** |  **Typical Value<br />典型值** |
 |-------------------------|-------------------------| -------------------------|
-| ![image](images/image193.png)  | ![image](images/image194.png)  | ![image](images/image195.png)  |
-| ![image](images/image196.png) | ![image](images/image197.png) | ![image](images/image198.png) |
+| Termination threshold<br />停止值 | The number of generations. It is not recommended to use a number larger than 100, which may reduce the design diversity in the design population.<br />即进化代数。不建议设置超过100的值，因为会降低优化结果的设计多样性 |  10-100 |
+| Mutation Rate<br />变异率 | The possibility of the mutation. Lower mutation rates mean the optimization search is more exploitative, while higher mutation rates mean the search is more explorative. However, if the mutation rate is too high, the search will become a random search<br />变异概率。较低的变异率将使优化更具挖掘性，而较高的变异率则使优化更具探索性。然后过高的变异率会使得优化趋近于随机搜索。 | 0.1-0.5 |
+| Mutation Radius Decay<br />变异率衰减  | The method to control the reduction of mutation is aimed to make the optimization more focused on a small search region.<br />用于在优化过程中逐步降低变异率，使得优化在前期更具探索性，而后期更具挖掘性 | - |
+| Tournament Size<br />竞争集大小 | The number of designs is selected from the subpopulation for the tournament selection<br />每代中从子种群中选择设计个体进行下一步进化的竞争集的数量  | 30-50% of the subpopulation size<br />30-50%子种群大小 |
+| Tour’ Selection Rate<br />竞争选择率 | The number of designs is selected from the tournament<br />从竞争集中选择设计个体的数量 | 0.5 |
+| Optimal LHA<br />最优拉丁超立方 | Whether or not to use Optimal LHA to create the initial population to make the designs more evenly distributed across the design space<br />是否使用最有拉丁超立方进行初始种群的生成。该方法可以使个体在设计空间中的分布更加均匀 | - |
+| K-Means Clustering<br />k 均值聚类 | Whether or not to use K-Means Clustering Algorithm to subdivide the design population.<br />是否采用k 均值聚类对种群进行分割以获得子种群 | - |
+| Iterations<br />迭代次数 | The total number of design generations and evaluations for the optimization. This number is calculated based on your current setting, and you can use this to predict how long the optimization process will take.<br />优化中设计生成和评估的总次数。该次数将根据当前的参数设置自动计算，以帮助设计师对优化的时长进行预测 | 200-500 for quick tests.<br />1000-3000 for obtaining more reliable results<br />快速测试：200-500次<br />获得较为可靠的解：1000-3000次 |
+| Save Screenshots & Image Size<br />保存截图及图片尺寸 | This function automatically conducts the screen capture on Rhino and saves the image on the backup folder where you save this gh file. The image will be captured from the currently active screen. Therefore, please adjust the angle before running the optimization<br />该功能将自动对Rhino中当前视图生成的设计进行截图，并保存至备份文件夹。所以，需要在优化前对Rhino视图的视角进行调整，以确保截图能够满足需求 | - |
+
 
 Once all the parameters are defined, you can click the “**Start**” button to lunch the optimization. **Please be aware that, after the optimization is started, EvoMass will automatically create a bunch of backup files, including the gh file, optimization data, generative component setup, etc, in a backup folder where you save this current gh file. In addition, the previous backup files will be overwritten. Thus, it is recommended to create a new folder to restore the gh file for each optimization run.**
 
