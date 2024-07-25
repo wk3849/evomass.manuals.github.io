@@ -627,7 +627,7 @@ As SSIEA uses an island-based approach that subdivides the design population int
 
 由于采用了“多岛模型“，SSIEA算法的参数设置与常见遗传算法的设置略有不同。在使用SSIEA时，需要对子种群的个数和大小进行设计，前者控制子种群的个数，后者控制每个子种群中个体的数量。所以，设计种群的总数为子种群个数\*子种群大小。同时，由于存在多个子种群，SSIEA允许个体在子种群间进行迁移，尤其是时当个别子种群已进行收敛后。因此，可以通过迁移率来调整个体迁移的概率。需要注意的是，迁移率过高会降低优化结果中设计的多样性，这是由于较优的个体迁移至另一子种群后，往往会迅速淘汰原有的个体。下表概况了主要的参数含义。
 
-| **Parameter</ br>参数** | **Meaning</ br>含义** |  **Typical Value</ br>典型值** |
+| **Parameter<br />参数** | **Meaning<br />含义** |  **Typical Value<br />典型值** |
 |-------------------------|-------------------------| -------------------------|
 | ![image](images/image193.png)  | ![image](images/image194.png)  | ![image](images/image195.png)  |
 | ![image](images/image196.png) | ![image](images/image197.png) | ![image](images/image198.png) |
