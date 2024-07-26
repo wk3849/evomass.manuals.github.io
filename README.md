@@ -722,10 +722,11 @@ In order to support urban massing design optimization, from EvoMass 0.4.0.1, the
 
 为了更好地辅助城市尺度的建筑体量设计，自0.4.0.1版本后，EvoMass新加入了建筑布局（Layout）组件用于对建筑布局进行生成和变化。该组件可以连结一个或者多个加法/减法建筑体量生成组件，并在由用户输入的范围内（内用地边界）对输入建筑体量的位置进行改变。该组件能够使EvoMass进行小尺度的城市体量设计，同事帮助设计师对建筑体量和布局对建成环境的综合影响进行分析。
 
-### 4.3.1 Main Viewer 主窗口
+## 5.1 Input/Output 输入/输出
+### 5.1.1 Connection 连接
 
-Once an optimization starts, another optimization progress viewer will pop up. In this viewer, you can monitor the progress of the optimization, current generations, and the number of iterations left for the optimization. The main table lists all the generated and evaluated design, their fitness scores, other recorded values, and parameters. When the mouse hovers on any of these items, a preview image will pop up if you enable the “Save ScreenShots” option in the SSIEA setting panel. Regarding the “**Display Option**”, you can select the designs from a specific subpopulation. Regarding the “**Filter**”, you can select only displaying improvement designs or the Pareto solutions. If you ticked the “**only show current population**”, only the alive designs will be listed in the table.
+The SSIEA component allows you to connect multiple generative components (subtractive/additive) as the outputs so that you can evolve multiple buildings at the same time for small-scale urban design tasks. However, it is not recommended to connect too many components as it will significantly increase the search difficulty for the optimization. In addition, this component also allows you to connect multiple value sources as the inputs, but you can only assign two of them as optimization objectives and the rest of these inputs will be automatically recorded during the optimization and will not affect the optimization. For the input, you can **rename** the nickname of the value parameter, which can be identified by the SSIEA component. **Lastly, for each input, it should only contain one value, no list or tree data is allowed.**
 
-当优化开始后，将会出现一个显示优化进程的窗口（下图）。该窗口可以用于监视优化进行，当前代数，迭代次数等。该窗口同时列出了所有已生成和分析的设计。当鼠标悬停在任一行时，该设计的缩略图将会显示（需在优化前开启自动截图功能）。在“**Display Option**”中，可以选择选择任一子种群，并使列表仅显示该子种群中的设计。在“**Filter**”中，可以选择改进解和帕累托解，以使列表仅显示这些设计。若选择“**only show current population**”，则列表仅会显示设计种群中所保留的解，即优化过程中淘汰的设计将不会被显示。
+SSIEA组件允许在输出端同时连接多个生成组件（减法/加法组件），以此同时对多个体量进行优化。但是，连接过多的生成组件会增加优化的难度，因此不建议连接超过多于3个生成组件。另一方面，该组件也允许在输入端连接多个数据来源，但是只能有两个作为优化目前，其他的输入数据则仅会被记录，不会对优化产生影响。对于输入端的数据来源，可以通过更改数据所在组件的别称使SSIEA组件对这些数据来源进行识别（后续会进一步解释）。最后没有输入数据来源中仅能包含一个数值，不可为数据列表或树状数据结构。
 
-![image](images/image203.png)
+![image](images/image199.png)
