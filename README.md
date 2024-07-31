@@ -126,6 +126,20 @@ This user guide is based on EvoMass **0.3.3** and published on **Novermber 21, 2
 
 [4.5. Restart/Load Optimization 重新开始/载入优化](#45-restartload-optimization-重新开始载入优化)
 
+[5. Building Layout 建筑布局](#5-building-layout-建筑布局)
+
+[5.1. Connection 连接](#51-connection-连接)
+
+[5.2. Generation 生成](#52-generation-生成)
+
+[5.2.1 Spacing 建筑间距](#521-spacing-建筑间距)
+
+[5.2.2 Rotation 建筑旋转](#522-rotation-建筑旋转)
+
+[5.2.3 Conflict Resolution 冲突处理](#522-conflict-resolution-冲突处理)
+
+[5.3. Optimization 优化](#53-optimization-优化)
+
 # 1. General Overview 总括
 
 EvoMass is an integrated building massing design generation and optimization tool, primarily aimed at performance-based architectural design. Instead of focusing purely on numerical optimization, the application of EvoMass is aimed to support optimization-based design exploration, where the optimization helps designers to extract design information, understand the design implications related to building performance, and synthesize the information into the ideation and conceptual development process.
