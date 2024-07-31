@@ -729,7 +729,7 @@ The layout component allows you to connect multiple generative components (subtr
 
 建筑布局组件允许链接多个（加/减法）生成组件，以使建筑布局可以与多个建筑体量共同进行优化。连结布局组件有两种方法，第一种方式是直接将生成组件的ComponentID输出端连接至布局组件的ComponentIDs输入端，第二种方式（更为推荐）是首先右键点击生成组件，并复制Component Instance GUID，并黏贴至面板（Panel）组件，并将面板组件直接连接至布局组件。采用第二种方式，可以将同一个生成组件的ID重复多次，以使布局组件可以对多个相同的建筑体量进行布局生成。最后，为确保项目可被优化，不建议连结超过四个生成组件，以避免优化算法需要处理过多的参数维度。
 
-| ![image](images/layout connect 1.png) | ![image](images/layout connect 2.png) |
+| ![image](images/layout_connect_1.png) | ![image](images/layout_connect_2.png) |
 |-------------------------|-------------------------|
 
 ## 5.2 Generation 生成
@@ -738,7 +738,7 @@ For generating building layouts, first need to double click the component and to
 
 完成连接后，需要双击布局组件已完成基本的参数设定，包括布局生成的边界，建筑间距（可选）和建筑朝向变化（可选）。当完成设置后，一个随机的建筑布局将会被生成。请注意，输入的范围应足够容纳所连结的建筑体量.
 
-![image](images/layout component.png)
+![image](images/layout_component.png)
 
 ### 5.2.1 Spacing 建筑间距
 
@@ -764,4 +764,4 @@ For design optimization, simply connect the layout component with the SSIEA comp
 
 完成生成设置后，可以将布局组件与SSIEA优化算法组件相连接，SSIEA组件能够自动识别布局组件所需要的参数数量，并自动控制布局组件的参数调整和设计生成。你也可以同时将SSIEA组件与其他建筑布局组件相连接，实现建筑体量与布局的协同优化。
 
-![image](images/layout example 1.png)
+![image](images/layout_example_1.png)
