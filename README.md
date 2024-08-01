@@ -1,8 +1,8 @@
 # EvoMass User Guide 使用指引
 
-This user guide is based on EvoMass **0.3.3** and published on **Novermber 21, 2022**.
+This user guide is based on EvoMass **0.4.1** and published on **1 August, 2024**.
 
-本指引手册基于EvoMass 0.3.3版本，发布于2022年11月21日
+本指引手册基于EvoMass 0.4.1版本，发布于2024年8月1日
 
 # Contents
 
@@ -732,9 +732,9 @@ If the loaded optimization is not finished, click the “**Restart Solving**” 
 
 # 5 Building Layout 建筑布局
 
-In order to support urban massing design optimization, from EvoMass 0.4.0.1, there is a new component to support the design generation and variation of building layouts. This component essentially connects one or multiple additive/subtractive building massing generative components and arranges the input building massing within a user-defined boundary (i.e. site boundary). This component enables the design optimization at the small urban design scale and allows the designer to investigate the collective impacts of building massing forms as well as the layout of the buildings on built environment.
+In order to support urban massing design optimization, from EvoMass 0.4.1, there is a new component to support the design generation and variation of building layouts. This component essentially connects one or multiple additive/subtractive building massing generative components and arranges the input building massing within a user-defined boundary (i.e. site boundary). This component enables the design optimization at the small urban design scale and allows the designer to investigate the collective impacts of building massing forms as well as the layout of the buildings on built environment.
 
-为了更好地辅助城市尺度的建筑体量设计，自0.4.0.1版本后，EvoMass新加入了建筑布局（Layout）组件用于对建筑布局进行生成和变化。该组件可以连结一个或者多个加法/减法建筑体量生成组件，并在由用户输入的范围内（内用地边界）对输入建筑体量的位置进行改变。该组件能够使EvoMass进行小尺度的城市体量设计，同事帮助设计师对建筑体量和布局对建成环境的综合影响进行分析。
+为了更好地辅助城市尺度的建筑体量设计，自0.4.1版本后，EvoMass新加入了建筑布局（Layout）组件用于对建筑布局进行生成和变化。该组件可以连结一个或者多个加法/减法建筑体量生成组件，并在由用户输入的范围内（内用地边界）对输入建筑体量的位置进行改变。该组件能够使EvoMass进行小尺度的城市体量设计，同事帮助设计师对建筑体量和布局对建成环境的综合影响进行分析。
 
 ## 5.1 Connection 连接
 
