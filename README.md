@@ -1,8 +1,8 @@
 # EvoMass User Guide 使用指引
 
-This user guide is based on EvoMass **0.4.1** and published on **1 August, 2024**.
+This user guide is based on EvoMass **0.4.1** and published on **15 August, 2024**.
 
-本指引手册基于EvoMass 0.4.1版本，发布于2024年8月1日
+本指引手册基于EvoMass 0.4.1版本，发布于2024年8月15日
 
 # Contents
 
